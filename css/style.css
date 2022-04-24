@@ -1,1 +1,12 @@
+/* classes gerais para toda a página */
+html{
+    scroll-behavior: smooth; /*faz a navegação da página ser suave*/
+    overflow-x: hidden; /* remove o scroll lateral */
+}
 /* Tela de Contato */
+
+.teste{
+    border: 1px solid black;
+    width: 90%;
+    margin-left: 5%;
+}
