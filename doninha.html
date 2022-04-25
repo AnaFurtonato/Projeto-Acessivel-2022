@@ -12,35 +12,39 @@
 
 <body>
 
-    <Header>
-        <button class="px-5 btn btn-dark">Ir Direto para O conteúdo Principal</button>
-        <img alt="Imagem superior da página">
-    </Header>
-
     <div class="container-fluid">
 
         <div class="row">
 
+            <Header class="headerDoninha">
+                <span class="background-image" role="img" aria-label="Imagem com fundo roxo que mostra o personagem doninha em sua versão do filme esquadão Suicida, e ao seu lado uma versão com o seu personagem nos quadrinhos da DC Comics"></span>
+                <button onclick="window.location.href='doninha.html#topo';" class="px-5 btn btn-dark">Ir Direto para O conteúdo Principal</button>
+            </Header>
+
+
+
             <div class="col-12">
                 <article>
 
-                    <h1 class="text-center pt-5 pb-5">Doninha</h1>
+                    <h1 id="topo" class="pt-5 pb-5 topo">Doninha</h1>
 
                     <div class="row">
-                        
-                            <img class="col-12 pb-5" src="images/doninha1.jfif" alt="#">
-            
-                            <img class="col-12" src="images/doninha2.jfif" alt="#">
-                    
+
+                        <img class="col-12 pb-5" src="images/doninha1.jpg" alt="Imagem do doninha com uma badeira enorme dos Estados Unidos atrás dele">
+
+                        <img class="col-12 pb-5" src="images/doninha2.jpg" alt="Doninha lambendo o vidro da porta sendo observado na prisão por outro detento que usa uma roupa laranja padrão de presidiário">
+
                     </div>
 
 
                     <div>
-                        <iframe src="https://www.youtube.com/embed/vjIyur_9J40" title="YouTube video player"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                        <object data="https://www.youtube.com/embed/I8_cXXcMg04">link video personagem</object>
+
+        
+                        <h2 class="pb-5">Vídeos do Doninha</h2>
+
+                        <object class="col-12 pb-5" data="https://www.youtube.com/embed/vjIyur_9J40"></object>
+
+                        <object class="col-12 pb-5" data="https://www.youtube.com/embed/I8_cXXcMg04">link video personagem</object>
                     </div>
 
 
@@ -63,7 +67,23 @@
                         deserunt mollit anim id est laborum.
                     </p>
 
-                    <img src="" alt="#"></img>
+                    <img class="col-12 pb-5" src="images/imagemDoninha2.png" alt="imagens do doninha na primeira versão dos quadrinhos, ondem era um homem fantasiado de doninha selvagem. Na imagem ao lado mostra uma versão lançada posteriormente onde o doninha era um animal mutante.">
+
+                    <p>
+                        O doninha Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt
+                        ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris
+                        nisi
+                        ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum
+                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                        qui
+                        officia
+                        deserunt mollit anim id est laborum.
+                    </p>
 
                 </article>
             </div>
@@ -75,26 +95,31 @@
 
                 <div>
                     <Section>
-                        <img class="teste" src="images/Frame 3.png" alt="#">
-                        <button>Clique aqui</button>
+                        <img class="col-12 pb-1" src="images/venon3.jpeg" alt="Imagem do personagem Venon, com o corpo totalmente preto, um desenho de aranha branco no peito e com a língua para fora">
+                      <p>Conheça mais sobre Venon, famoso personagem da Marvel</p>
+                        <button class="btn btn-dark">Clique aqui</button>
                     </Section>
 
-                    <Section>
-                        <img class="teste" src="images/Frame 3.png" alt="#">
-                        <button>Clique aqui</button>
+                    <Section class="pb-5">
+                        <img class="col-12 pb-5 teste" src="images/Frame 3.png" alt="#">
+                        <button class="btn btn-dark">Clique aqui</button>
                     </Section>
                 </div>
             </aside>
 
             <section>
-                <img class="teste" src="images/Frame 3.png" alt="#">
-                <h3>Titulo</h3>
-                <h6>Nome do autor</h6>
-                <p>Resumo materia</p>
-                <button>Clique aqui</button>
+                <img class="teste" src="images/Sean-Gunn-Doninha.jpg" alt="Imagem do Doninha com a frase (Sean Gunn as) sobre sua cabeça e fundo com a cor roxo">
+                <h3>Conheça quem Interpretou o Doninha</h3>
+                <h6>Autor: Állysson Ernandes</h6>
+                <p>Um breve resumo de como o Doninha foi criado e por quem foi interpretado no filme "Esquadão Suícida."</p>
+                <button class="btn btn-dark">Clique aqui</button>
             </section>
 
 
+
+            <footer class="footerVoltarTopo">
+                <button  onclick="window.location.href='doninha.html#topo';" class="btn btn-dark">Voltar ao Topo</button>
+            </footer>
         </div>
 
     </div>
