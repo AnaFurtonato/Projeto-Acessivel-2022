@@ -1,33 +1,116 @@
 /* classes gerais para toda a página */
-html{
-    scroll-behavior: smooth; /*faz a navegação da página ser suave*/
-    overflow-x: hidden; /* remove o scroll lateral */
+html {
+    scroll-behavior: smooth;
+    /*faz a navegação da página ser suave*/
+    overflow-x: hidden;
+    /* remove o scroll lateral */
     text-align: justify;
 }
 
-.footerVoltarTopo{
+.BotaoVoltarAoTopo {
     float: left;
     margin-left: 28%;
 }
 
+.BotaoConteudoPrincipal {
+    width: 100%;
+}
 
-.teste{
+
+.teste {
     border: 1px solid black;
     width: 90%;
     margin-left: 5%;
 }
 
-/* tela Doninha DC */
 
 @media (max-width: 576px) {
-    .headerDoninha{
-        background-image: url(/images/ImagemPrincipalDoninha.png);
+
+    /* tela doninha */
+    .headerDoninha {
+        background-image: url(/images/Doninha\ principal\ Mobile.png);
+        background-size: cover;
+        height: 500px;
+        background-repeat: no-repeat;
+    }
+
+    .videoDoninha {
+        height: 300px;
+    }
+}
+
+
+@media (min-width: 576px) {
+
+    /* tela doninha */
+    .headerDoninha {
+        background-image: url(/images/Doninha\ principal\ Mobile.png);
         background-size: cover;
         height: 500px;
         align-items: center;
-        background-position: 13% 100%;
         background-repeat: no-repeat;
     }
-}
-    
 
+    .videoDoninha {
+        height: 500px;
+    }
+}
+
+
+@media (min-width:768px) {
+
+    /* tela doninha */
+    .headerDoninha {
+        background-image: url(/images/Imagemdoninhamedia.png);
+        background-size: initial;
+        background-repeat: no-repeat;
+    }
+
+    .videoDoninha {
+        height: 500px;
+    }
+
+}
+
+
+@media (min-width:992px) {
+
+    /* tela doninha */
+    .headerDoninha {
+        background-image: url(/images/Imagemdoninhamedia.png);
+        background-size: cover;
+        height: 500px;
+        align-items: center;
+        background-repeat: no-repeat;
+    }
+
+    .videoDoninha {
+        height: 600px;
+    }
+
+}
+
+
+
+@media (min-width:1200px) {
+
+    /* tela doninha */
+    .headerDoninha {
+        background-image: url(/images/ImagemPrincipalDoninha.png);
+
+        background-size: cover;
+        height: 500px;
+        align-items: center;
+        background-repeat: no-repeat;
+    }
+
+    .videoDoninha {
+        height: 500px;
+    }
+
+
+    .NoticiaDC{
+        margin-top: -1936px;
+    }
+
+}
