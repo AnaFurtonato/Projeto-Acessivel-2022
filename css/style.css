@@ -146,13 +146,10 @@ html {
         background-repeat: no-repeat;
     }
 
-    .videoDoninha {
+     .videoDoninha {
         height: 300px;
     }
 
-    .NoticiaDC2{
-        display: none;
-    }
 }
 
 
@@ -167,12 +164,8 @@ html {
         background-repeat: no-repeat;
     }
 
-    .videoDoninha {
+     .videoDoninha {
         height: 500px;
-    }
-
-    .NoticiaDC2{
-        display: none;
     }
 }
 
@@ -186,12 +179,8 @@ html {
         background-repeat: no-repeat;
     }
 
-    .videoDoninha {
+     .videoDoninha {
         height: 500px;
-    }
-
-    .NoticiaDC2{
-        display: none;
     }
 
 }
@@ -212,9 +201,6 @@ html {
         height: 600px;
     }
 
-    .NoticiaDC2{
-        display: none;
-    }
 
 }
 
@@ -236,14 +222,6 @@ html {
         height: 500px;
     }
 
-
-    .NoticiaDC{
-        display: none;
-    }
-
-    .NoticiaDC2{
-        display: block;
-    }
 
 }
 >>>>>>> a618ae9221164925a36b5869ef981c2b8d4254a7
