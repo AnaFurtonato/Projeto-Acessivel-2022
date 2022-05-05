@@ -1,3 +1,115 @@
+<<<<<<< HEAD
+
+#inicio{
+
+    background-color: #2C66EB;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.h2asside{
+
+    background-color: #2C66EB;
+    color: #fff;
+    border-radius: 10px;
+}
+
+/* Page videos Mobile */
+@media (max-width: 576px) {
+    
+.btnini{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+.div_trail{
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+}
+
+.header_videos{
+    text-align: center;
+}
+
+.btnini{
+    margin-top: 10px;
+}
+
+.footervid{
+    text-align: center;
+}
+
+.btnfoot{
+    margin-top: 10px;
+}
+
+#inicio{
+    padding: 10px 0px 10px 20px;
+    margin: 15px 0px 15px 0px;
+}
+
+.h2asside{
+    padding: 10px 0px 10px 20px;
+    margin: 15px 0px 15px 0px;
+
+}
+
+}
+
+@media (min-width: 576px) {
+    .btnini{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+.div_trail{
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+}
+
+.header_videos{
+    text-align: center;
+}
+
+.btnini{
+    margin-top: 10px;
+}
+
+.footervid{
+    text-align: center;
+}
+
+.btnfoot{
+    margin-top: 10px;
+}
+
+#inicio{
+    padding: 10px 0px 10px 20px;
+    margin: 15px 0px 15px 0px;
+}
+
+.h2asside{
+    padding: 10px 0px 10px 20px;
+    margin: 15px 0px 15px 0px;
+
+}
+
+}
+
+/* Page Videos tablet */
+@media (min-width:768px){
+    #inicio{
+        padding: 10px 0px 10px 20px;
+        margin: 15px 15px 15px 0px;
+    }
+    
+    .h2asside{
+        padding: 10px 0px 10px 20px;
+        margin: 15px 15px 15px 0px;
+    
+    }
+}
+=======
 /* classes gerais para toda a página */
 html {
     scroll-behavior: smooth;
@@ -112,3 +224,4 @@ html {
 
 
 }
+>>>>>>> a618ae9221164925a36b5869ef981c2b8d4254a7
