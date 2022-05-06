@@ -23,6 +23,11 @@ html {
     margin-left: 5%;
 }
 
+.copy {
+    font-weight: bold;
+    text-align: center;
+}
+
 
 @media (max-width: 576px) {
 
