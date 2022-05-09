@@ -225,3 +225,136 @@ html {
 
 }
 >>>>>>> a618ae9221164925a36b5869ef981c2b8d4254a7
+
+/*tela materia*/
+#pmat {
+    margin: 10px 20px;
+}
+
+.container {
+    padding: auto;
+}
+
+/* .bodymat {
+    background-color:  #ecec44 ;
+ } */
+
+.navmat {
+    text-align: center;
+    margin: 20px 80px 20px 80px;
+}
+.listmat{
+    margin: 10%;
+    text-decoration: none;
+    display: inline;
+}
+
+.nommat {
+    margin-top: 20px;
+    margin: 20px;
+}
+
+#fmat{
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+#sectionmat {
+    display: block;
+    vertical-align: top;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.hmat {
+    font-size: 1.1em;
+    margin: 20px;
+}
+
+.hmat1 {
+    font-size: .75em;
+    margin: 10px 20px;
+}
+
+.pmat {
+    font-size: .7em;
+    margin: 20px;
+}
+
+#asidemat {
+    display:block;
+    float: right;
+    margin: 20px;
+}
+
+.asmat{
+    margin: 20px 50px 20px 100px;
+}
+
+.asmat1{
+    margin: 20px 100px 20px 100px;
+}
+
+#buttonm {
+    margin: 5px 10px;
+    background-color:#b4d6e6;
+    border: 1px solid #2c66eb;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    font-size: .8em;
+    text-align: center;
+}
+
+ /* tela noticias*/
+
+ /* .bodynot {
+    background-color:  #2c66eb ;
+} */
+
+.h1not{
+    margin: 20px;
+}
+
+.card {
+   margin: 20px;
+}
+
+.card-img-top {
+    display: block;
+    margin: 20px auto;
+    padding: auto;
+}
+
+#button {
+    margin: 20px;
+    background-color:#b4d6e6;
+    border: 1px solid #2c66eb;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    font-size: .8em;
+    text-align: center;
+}
+
+#sectionnot {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: url("../images/imagemrev.jpg");
+    background-repeat: no-repeat;
+}
+
+.sec1{
+    float: left;
+}
+
+.sec2 {
+    float: right;
+}
