@@ -1,0 +1,360 @@
+<<<<<<< HEAD
+
+#inicio{
+
+    background-color: #2C66EB;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.h2asside{
+
+    background-color: #2C66EB;
+    color: #fff;
+    border-radius: 10px;
+}
+
+/* Page videos Mobile */
+@media (max-width: 576px) {
+    
+.btnini{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+.div_trail{
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+}
+
+.header_videos{
+    text-align: center;
+}
+
+.btnini{
+    margin-top: 10px;
+}
+
+.footervid{
+    text-align: center;
+}
+
+.btnfoot{
+    margin-top: 10px;
+}
+
+#inicio{
+    padding: 10px 0px 10px 20px;
+    margin: 15px 0px 15px 0px;
+}
+
+.h2asside{
+    padding: 10px 0px 10px 20px;
+    margin: 15px 0px 15px 0px;
+
+}
+
+}
+
+@media (min-width: 576px) {
+    .btnini{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+.div_trail{
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+}
+
+.header_videos{
+    text-align: center;
+}
+
+.btnini{
+    margin-top: 10px;
+}
+
+.footervid{
+    text-align: center;
+}
+
+.btnfoot{
+    margin-top: 10px;
+}
+
+#inicio{
+    padding: 10px 0px 10px 20px;
+    margin: 15px 0px 15px 0px;
+}
+
+.h2asside{
+    padding: 10px 0px 10px 20px;
+    margin: 15px 0px 15px 0px;
+
+}
+
+}
+
+/* Page Videos tablet */
+@media (min-width:768px){
+    #inicio{
+        padding: 10px 0px 10px 20px;
+        margin: 15px 15px 15px 0px;
+    }
+    
+    .h2asside{
+        padding: 10px 0px 10px 20px;
+        margin: 15px 15px 15px 0px;
+    
+    }
+}
+=======
+/* classes gerais para toda a página */
+html {
+    scroll-behavior: smooth;
+    /*faz a navegação da página ser suave*/
+    overflow-x: hidden;
+    /* remove o scroll lateral */
+    text-align: justify;
+}
+
+.BotaoVoltarAoTopo {
+    float: left;
+    margin-left: 28%;
+}
+
+.BotaoConteudoPrincipal {
+    width: 100%;
+}
+
+
+.teste {
+    border: 1px solid black;
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+@media (max-width: 576px) {
+
+    /* tela doninha */
+    .headerDoninha {
+        background-image: url(/images/Doninha\ principal\ Mobile.png);
+        background-size: cover;
+        height: 500px;
+        background-repeat: no-repeat;
+    }
+
+     .videoDoninha {
+        height: 300px;
+    }
+
+}
+
+
+@media (min-width: 576px) {
+
+    /* tela doninha */
+    .headerDoninha {
+        background-image: url(/images/Doninha\ principal\ Mobile.png);
+        background-size: cover;
+        height: 500px;
+        align-items: center;
+        background-repeat: no-repeat;
+    }
+
+     .videoDoninha {
+        height: 500px;
+    }
+}
+
+
+@media (min-width:768px) {
+
+    /* tela doninha */
+    .headerDoninha {
+        background-image: url(/images/Imagemdoninhamedia.png);
+        background-size: initial;
+        background-repeat: no-repeat;
+    }
+
+     .videoDoninha {
+        height: 500px;
+    }
+
+}
+
+
+@media (min-width:992px) {
+
+    /* tela doninha */
+    .headerDoninha {
+        background-image: url(/images/Imagemdoninhamedia.png);
+        background-size: cover;
+        height: 500px;
+        align-items: center;
+        background-repeat: no-repeat;
+    }
+
+    .videoDoninha {
+        height: 600px;
+    }
+
+
+}
+
+
+
+@media (min-width:1200px) {
+
+    /* tela doninha */
+    .headerDoninha {
+        background-image: url(../images/ImagemPrincipalDoninha.png);
+
+        background-size: cover;
+        height: 500px;
+        align-items: center;
+        background-repeat: no-repeat;
+    }
+
+    .videoDoninha {
+        height: 500px;
+    }
+
+
+}
+>>>>>>> a618ae9221164925a36b5869ef981c2b8d4254a7
+
+/*tela materia*/
+#pmat {
+    margin: 10px 20px;
+}
+
+.container {
+    padding: auto;
+}
+
+/* .bodymat {
+    background-color:  #ecec44 ;
+ } */
+
+.navmat {
+    text-align: center;
+    margin: 20px 80px 20px 80px;
+}
+.listmat{
+    margin: 10%;
+    text-decoration: none;
+    display: inline;
+}
+
+.nommat {
+    margin-top: 20px;
+    margin: 20px;
+}
+
+#fmat{
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+#sectionmat {
+    display: block;
+    vertical-align: top;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.hmat {
+    font-size: 1.1em;
+    margin: 20px;
+}
+
+.hmat1 {
+    font-size: .75em;
+    margin: 10px 20px;
+}
+
+.pmat {
+    font-size: .7em;
+    margin: 20px;
+}
+
+#asidemat {
+    display:block;
+    float: right;
+    margin: 20px;
+}
+
+.asmat{
+    margin: 20px 50px 20px 100px;
+}
+
+.asmat1{
+    margin: 20px 100px 20px 100px;
+}
+
+#buttonm {
+    margin: 5px 10px;
+    background-color:#b4d6e6;
+    border: 1px solid #2c66eb;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    font-size: .8em;
+    text-align: center;
+}
+
+ /* tela noticias*/
+
+ /* .bodynot {
+    background-color:  #2c66eb ;
+} */
+
+.h1not{
+    margin: 20px;
+}
+
+.card {
+   margin: 20px;
+}
+
+.card-img-top {
+    display: block;
+    margin: 20px auto;
+    padding: auto;
+}
+
+#button {
+    margin: 20px;
+    background-color:#b4d6e6;
+    border: 1px solid #2c66eb;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    font-size: .8em;
+    text-align: center;
+}
+
+#sectionnot {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: url("../images/imagemrev.jpg");
+    background-repeat: no-repeat;
+}
+
+.sec1{
+    float: left;
+}
+
+.sec2 {
+    float: right;
+}
