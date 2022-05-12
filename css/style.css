@@ -225,16 +225,6 @@ html {
 
 }
 
-
-
-.h1,h2,h3,h4,h5,h6{
-    font-family: "inter", sans-serif;
-    text-align: center;
-}
-
-.p{    
-    font-family: "inter", sans-serif;}
-
 /*Tela HQ*/
 
 .h1marvel{
@@ -253,6 +243,7 @@ html {
 
 .h5card{
     margin:15px 0px 15px 0px;
+    text-align: center;
 }
 
 .card{
@@ -293,20 +284,50 @@ html {
 .NomePersonagemMarvel{
     background-color: #2c66eb;
     color: #fff;
+    font-family: "inter", sans-serif;
+    text-align: center;
     padding: 40px 0px 40px 0px;
     margin: 0px 0px 50px 0px;
 }
 
-.imgPersonagemMarvel{
-    margin: 50px 0px 50px 0px;
+.h2Marvel{
+    font-family: "inter", sans-serif;
+    text-align: center;
+    margin: 50px 0px 20px 0px;
+}
+.h2TituloMarvel{
+    font-family: "inter", sans-serif;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+.h2varianteMarvel{
+    font-family: "inter", sans-serif;
+    text-align: center;
+    margin: 50px 0px 30px 0px;
+    color: #fff;
+}
+.h4varianteMarvel{
+    font-family: "inter", sans-serif;
+    text-align: center;
+    color: #fff;
 }
 
 .imgPersonagemMarvel{
+    margin: 20px 0px 20px 0px;
     border-radius: 10px;
 }
-
+.imagemloki{
+    margin: 0px 0px 30px 0px;
+}
 .imagemMarvel {
     text-align: center;  
+}
+.variantes{
+    background-color: #000;
+
+}
+.pvarianteMarvel{
+    color: white;
 }
 
 .VideoTelaMarvel{
@@ -345,7 +366,7 @@ html {
 
 .BotaoPersonagemMarvel{
     text-align: center;
-    background-color: #000;
+    background-color: #2c66eb;
     color: #fff;
     font-family: "inter", sans-serif;
     margin:0px 0px 50px 0px;
@@ -423,6 +444,30 @@ html {
 }
 
 .h3sobre{
+    margin:15px 0px 15px 0px;
+}
+
+.psobre{
+    font-family: "inter", sans-serif; 
+}
+
+
+  /*tela politica de privacidade */
+
+  .mainpolitica{
+      margin: 20px 20px 20px 20px;
+  }
+  
+  .h2politica{
+    background-color: #2c66eb;
+    color: #fff;
+    text-align: center;
+    font-family: "inter", sans-serif; 
+    padding: 40px 0px 40px 0px;
+}
+
+.h4politica{
+    font-family: "inter", sans-serif; 
     margin:15px 0px 15px 0px;
 }
 
