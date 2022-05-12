@@ -1,18 +1,24 @@
-<<<<<<< HEAD
+
 
 #inicio{
 
-    background-color: #2C66EB;
-    color: #fff;
-    border-radius: 10px;
-}
+/* css geral page Videos */
+#inicio {
 
-.h2asside{
 
     background-color: #2C66EB;
     color: #fff;
     border-radius: 10px;
 }
+
+.h2asside {
+
+
+    background-color: #2C66EB;
+    color: #fff;
+    border-radius: 10px;
+}
+
 
 /* Page videos Mobile */
 @media (max-width: 576px) {
@@ -109,7 +115,51 @@
     
     }
 }
-=======
+
+/* css geral page Comic Con */
+
+.headercc {
+    margin-bottom: 25px;
+}
+
+.headercc img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#inicc {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.pccxp {
+    margin: 0px 15px 0px 15px;
+    font-size: 1.4em;
+}
+
+.imgccxp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.h1tal {
+    text-align: center;
+    margin: 0px 0px 25px 0px;
+}
+
+
+.h2ing {
+    margin: 5px 15px 15px 15px;
+}
+
+.h2fim {
+    margin: 0px 0px 10px 15px;
+}
+
+
 /* classes gerais para toda a página */
 html {
     scroll-behavior: smooth;
@@ -150,6 +200,72 @@ html {
         height: 300px;
     }
 
+
+
+    .NoticiaDC2 {
+        display: none;
+    }
+
+    /* Page videos Mobile */
+
+    .btnini {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .div_trail {
+        padding: 15px 0px 15px 0px;
+        text-align: center;
+    }
+
+    .header_videos {
+        text-align: center;
+    }
+
+    .btnini {
+        margin: 15px 0px 15px 0px;
+    }
+
+    .footervid {
+        text-align: center;
+    }
+
+    .btnfoot {
+        margin-top: 10px;
+
+    }
+
+    #inicio {
+        padding: 10px 0px 10px 20px;
+        margin: 15px 0px 15px 0px;
+    }
+
+    .h2asside {
+        padding: 10px 0px 10px 20px;
+        margin: 15px 0px 15px 0px;
+
+    }
+
+    /* page Comic Con */
+    .diving {
+        text-align: center;
+        margin: 45px 0px 45px 0px;
+    }
+
+    .h3ingd {
+        margin: 25px 0px 20px 0px;
+    }
+
+    .divart {
+        text-align: center;
+        margin: 45px 0px 45px 0px;
+    }
+
+    .hart {
+        margin: 5px 0px 0px 0px;
+    }
+
+
 }
 
 
@@ -167,6 +283,73 @@ html {
      .videoDoninha {
         height: 500px;
     }
+
+
+
+    .NoticiaDC2 {
+        display: none;
+    }
+
+
+    /* Page Videos  */
+
+    .btnini {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .div_trail {
+        padding: 15px 0px 15px 0px;
+        text-align: center;
+    }
+
+    .header_videos {
+        text-align: center;
+    }
+
+    .btnini {
+        margin-top: 10px;
+    }
+
+    .footervid {
+        text-align: center;
+    }
+
+    .btnfoot {
+        margin-top: 10px;
+    }
+
+    #inicio {
+        padding: 10px 0px 10px 20px;
+        margin: 15px 0px 15px 0px;
+    }
+
+    h2asside {
+        padding: 10px 0px 10px 20px;
+        margin: 15px 0px 15px 0px;
+
+    }
+
+    /* page Comic Con */
+    .diving {
+        text-align: center;
+        margin: 45px 0px 45px 0px;
+    }
+
+    .h3ingd {
+        margin: 25px 0px 20px 0px;
+    }
+
+    .divart {
+        text-align: center;
+        margin: 45px 0px 45px 0px;
+    }
+
+    .hart {
+        margin: 5px 0px 0px 0px;
+    }
+
+
 }
 
 
@@ -182,6 +365,21 @@ html {
      .videoDoninha {
         height: 500px;
     }
+
+    /* Page Videos tablet */
+
+    #inicio {
+        padding: 10px 0px 10px 20px;
+        margin: 15px 15px 15px 0px;
+    }
+
+    .h2asside {
+        padding: 10px 0px 10px 20px;
+        margin: 15px 15px 15px 0px;
+
+    }
+
+
 
 }
 
@@ -222,9 +420,9 @@ html {
         height: 500px;
     }
 
-
 }
->>>>>>> a618ae9221164925a36b5869ef981c2b8d4254a7
+
+
 
 /*tela materia*/
 #pmat {
