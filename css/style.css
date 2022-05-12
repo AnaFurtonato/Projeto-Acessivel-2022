@@ -1,18 +1,24 @@
-HEAD
+
 
 #inicio{
 
-    background-color: #2C66EB;
-    color: #fff;
-    border-radius: 10px;
-}
+/* css geral page Videos */
+#inicio {
 
-.h2asside{
 
     background-color: #2C66EB;
     color: #fff;
     border-radius: 10px;
 }
+
+.h2asside {
+
+
+    background-color: #2C66EB;
+    color: #fff;
+    border-radius: 10px;
+}
+
 
 /* Page videos Mobile */
 @media (max-width: 576px) {
@@ -110,6 +116,52 @@ HEAD
     }
 }
 
+
+/* css geral page Comic Con */
+
+.headercc {
+    margin-bottom: 25px;
+}
+
+.headercc img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#inicc {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.pccxp {
+    margin: 0px 15px 0px 15px;
+    font-size: 1.4em;
+}
+
+.imgccxp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.h1tal {
+    text-align: center;
+    margin: 0px 0px 25px 0px;
+}
+
+
+.h2ing {
+    margin: 5px 15px 15px 15px;
+}
+
+.h2fim {
+    margin: 0px 0px 10px 15px;
+}
+
+
+
 /* classes gerais para toda a página */
 html {
     scroll-behavior: smooth;
@@ -150,6 +202,72 @@ html {
         height: 300px;
     }
 
+
+
+    .NoticiaDC2 {
+        display: none;
+    }
+
+    /* Page videos Mobile */
+
+    .btnini {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .div_trail {
+        padding: 15px 0px 15px 0px;
+        text-align: center;
+    }
+
+    .header_videos {
+        text-align: center;
+    }
+
+    .btnini {
+        margin: 15px 0px 15px 0px;
+    }
+
+    .footervid {
+        text-align: center;
+    }
+
+    .btnfoot {
+        margin-top: 10px;
+
+    }
+
+    #inicio {
+        padding: 10px 0px 10px 20px;
+        margin: 15px 0px 15px 0px;
+    }
+
+    .h2asside {
+        padding: 10px 0px 10px 20px;
+        margin: 15px 0px 15px 0px;
+
+    }
+
+    /* page Comic Con */
+    .diving {
+        text-align: center;
+        margin: 45px 0px 45px 0px;
+    }
+
+    .h3ingd {
+        margin: 25px 0px 20px 0px;
+    }
+
+    .divart {
+        text-align: center;
+        margin: 45px 0px 45px 0px;
+    }
+
+    .hart {
+        margin: 5px 0px 0px 0px;
+    }
+
+
 }
 
 
@@ -167,6 +285,73 @@ html {
      .videoDoninha {
         height: 500px;
     }
+
+
+
+    .NoticiaDC2 {
+        display: none;
+    }
+
+
+    /* Page Videos  */
+
+    .btnini {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .div_trail {
+        padding: 15px 0px 15px 0px;
+        text-align: center;
+    }
+
+    .header_videos {
+        text-align: center;
+    }
+
+    .btnini {
+        margin-top: 10px;
+    }
+
+    .footervid {
+        text-align: center;
+    }
+
+    .btnfoot {
+        margin-top: 10px;
+    }
+
+    #inicio {
+        padding: 10px 0px 10px 20px;
+        margin: 15px 0px 15px 0px;
+    }
+
+    h2asside {
+        padding: 10px 0px 10px 20px;
+        margin: 15px 0px 15px 0px;
+
+    }
+
+    /* page Comic Con */
+    .diving {
+        text-align: center;
+        margin: 45px 0px 45px 0px;
+    }
+
+    .h3ingd {
+        margin: 25px 0px 20px 0px;
+    }
+
+    .divart {
+        text-align: center;
+        margin: 45px 0px 45px 0px;
+    }
+
+    .hart {
+        margin: 5px 0px 0px 0px;
+    }
+
+
 }
 
 
@@ -182,6 +367,21 @@ html {
      .videoDoninha {
         height: 500px;
     }
+
+    /* Page Videos tablet */
+
+    #inicio {
+        padding: 10px 0px 10px 20px;
+        margin: 15px 15px 15px 0px;
+    }
+
+    .h2asside {
+        padding: 10px 0px 10px 20px;
+        margin: 15px 15px 15px 0px;
+
+    }
+
+
 
 }
 
@@ -222,8 +422,82 @@ html {
         height: 500px;
     }
 
-
 }
+
+
+
+/*tela materia*/
+#pmat {
+    margin: 10px 20px;
+}
+
+.container {
+    padding: auto;
+}
+
+/* .bodymat {
+    background-color:  #ecec44 ;
+ } */
+
+.navmat {
+    text-align: center;
+    margin: 20px 80px 20px 80px;
+}
+.listmat{
+    margin: 10%;
+    text-decoration: none;
+    display: inline;
+}
+
+.nommat {
+    margin-top: 20px;
+    margin: 20px;
+}
+
+#fmat{
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+#sectionmat {
+    display: block;
+    vertical-align: top;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.hmat {
+    font-size: 1.1em;
+    margin: 20px;
+}
+
+.hmat1 {
+    font-size: .75em;
+    margin: 10px 20px;
+}
+
+.pmat {
+    font-size: .7em;
+    margin: 20px;
+}
+
+#asidemat {
+    display:block;
+    float: right;
+    margin: 20px;
+}
+
+.asmat{
+    margin: 20px 50px 20px 100px;
+}
+
+.asmat1{
+    margin: 20px 100px 20px 100px;
+}
+
 
 /*Tela HQ*/
 
@@ -474,3 +748,65 @@ html {
 .psobre{
     font-family: "inter", sans-serif; 
 }
+
+#buttonm {
+    margin: 5px 10px;
+    background-color:#b4d6e6;
+    border: 1px solid #2c66eb;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    font-size: .8em;
+    text-align: center;
+}
+
+ /* tela noticias*/
+
+ /* .bodynot {
+    background-color:  #2c66eb ;
+} */
+
+.h1not{
+    margin: 20px;
+}
+
+.card {
+   margin: 20px;
+}
+
+.card-img-top {
+    display: block;
+    margin: 20px auto;
+    padding: auto;
+}
+
+#button {
+    margin: 20px;
+    background-color:#b4d6e6;
+    border: 1px solid #2c66eb;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    font-size: .8em;
+    text-align: center;
+}
+
+#sectionnot {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: url("../images/imagemrev.jpg");
+    background-repeat: no-repeat;
+}
+
+.sec1{
+    float: left;
+}
+
+.sec2 {
+    float: right;
+}
+
