@@ -117,6 +117,7 @@
 }
 
 
+
 /* css geral page Comic Con */
 
 .headercc {
@@ -160,8 +161,6 @@
     margin: 0px 0px 10px 15px;
 }
 
-
-
 /* classes gerais para toda a página */
 html {
     scroll-behavior: smooth;
@@ -185,6 +184,11 @@ html {
     border: 1px solid black;
     width: 90%;
     margin-left: 5%;
+}
+
+.copy {
+    font-weight: bold;
+    text-align: center;
 }
 
 
@@ -638,6 +642,7 @@ html {
 }
 
 
+
 .BotaoPersonagemMarvel{
     text-align: center;
     background-color: #2c66eb;
@@ -652,8 +657,6 @@ html {
 .BotaoPersonagemMarvel:hover{
     color: #ffff;
 }
-
-
 
 
 .h5noticia{
@@ -809,4 +812,3 @@ html {
 .sec2 {
     float: right;
 }
-
