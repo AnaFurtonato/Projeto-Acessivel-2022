@@ -1,5 +1,10 @@
+
+
+#inicio{
+
 /* css geral page Videos */
 #inicio {
+
 
     background-color: #2C66EB;
     color: #fff;
@@ -8,9 +13,107 @@
 
 .h2asside {
 
+
     background-color: #2C66EB;
     color: #fff;
     border-radius: 10px;
+}
+
+
+/* Page videos Mobile */
+@media (max-width: 576px) {
+    
+.btnini{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+.div_trail{
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+}
+
+.header_videos{
+    text-align: center;
+}
+
+.btnini{
+    margin-top: 10px;
+}
+
+.footervid{
+    text-align: center;
+}
+
+.btnfoot{
+    margin-top: 10px;
+}
+
+#inicio{
+    padding: 10px 0px 10px 20px;
+    margin: 15px 0px 15px 0px;
+}
+
+.h2asside{
+    padding: 10px 0px 10px 20px;
+    margin: 15px 0px 15px 0px;
+
+}
+
+}
+
+@media (min-width: 576px) {
+    .btnini{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+.div_trail{
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+}
+
+.header_videos{
+    text-align: center;
+}
+
+.btnini{
+    margin-top: 10px;
+}
+
+.footervid{
+    text-align: center;
+}
+
+.btnfoot{
+    margin-top: 10px;
+}
+
+#inicio{
+    padding: 10px 0px 10px 20px;
+    margin: 15px 0px 15px 0px;
+}
+
+.h2asside{
+    padding: 10px 0px 10px 20px;
+    margin: 15px 0px 15px 0px;
+
+}
+
+}
+
+/* Page Videos tablet */
+@media (min-width:768px){
+    #inicio{
+        padding: 10px 0px 10px 20px;
+        margin: 15px 15px 15px 0px;
+    }
+    
+    .h2asside{
+        padding: 10px 0px 10px 20px;
+        margin: 15px 15px 15px 0px;
+    
+    }
 }
 
 /* css geral page Comic Con */
@@ -56,6 +159,7 @@
     margin: 0px 0px 10px 15px;
 }
 
+
 /* classes gerais para toda a página */
 html {
     scroll-behavior: smooth;
@@ -95,6 +199,7 @@ html {
      .videoDoninha {
         height: 300px;
     }
+
 
 
     .NoticiaDC2 {
@@ -160,6 +265,7 @@ html {
         margin: 5px 0px 0px 0px;
     }
 
+
 }
 
 
@@ -177,6 +283,7 @@ html {
      .videoDoninha {
         height: 500px;
     }
+
 
 
     .NoticiaDC2 {
@@ -242,6 +349,7 @@ html {
         margin: 5px 0px 0px 0px;
     }
 
+
 }
 
 
@@ -258,10 +366,6 @@ html {
         height: 500px;
     }
 
-    .NoticiaDC2 {
-        display: none;
-    }
-
     /* Page Videos tablet */
 
     #inicio {
@@ -274,6 +378,7 @@ html {
         margin: 15px 15px 15px 0px;
 
     }
+
 
 
 }
@@ -295,10 +400,6 @@ html {
     }
 
 
-    .NoticiaDC2 {
-        display: none;
-    }
-
 }
 
 
@@ -319,18 +420,8 @@ html {
         height: 500px;
     }
 
-
-
-    .NoticiaDC {
-        display: none;
-    }
-
-    .NoticiaDC2 {
-        display: block;
-    }
-
-
 }
+
 
 
 /*tela materia*/
@@ -369,6 +460,7 @@ html {
 
 #sectionmat {
     display: block;
+    vertical-align: top;
     margin: 10px;
     border: 1px solid black;
     border-radius: 10px;
@@ -463,5 +555,4 @@ html {
 
 .sec2 {
     float: right;
-
 }
