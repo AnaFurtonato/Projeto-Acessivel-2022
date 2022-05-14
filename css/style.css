@@ -1,6 +1,6 @@
 
 
-#inicio{
+
 
 /* css geral page Videos */
 #inicio {
@@ -385,7 +385,16 @@ html {
 
     }
 
+    /* page Comic Con */
 
+    .diving{
+        padding: 0px 10px 0px 10px;
+    }
+
+    .divart{
+        text-align: center;
+        margin: 45px 0px 45px 0px;
+    }
 
 }
 
@@ -405,6 +414,17 @@ html {
         height: 600px;
     }
 
+        /* page Comic Con */
+
+        .diving{
+            padding: 0px 10px 0px 10px;
+        }
+        
+        .divart{
+            text-align: center;
+            margin: 45px 0px 45px 0px;
+        }
+        
 
 }
 
@@ -424,6 +444,12 @@ html {
 
     .videoDoninha {
         height: 500px;
+    }
+
+    /* page Comic Con */
+
+    .diving{
+        padding: 0px 10px 0px 10px;
     }
 
 }
