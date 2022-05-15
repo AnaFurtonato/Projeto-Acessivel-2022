@@ -1,4 +1,26 @@
+/* classes gerais para toda a página */
+html {
+    scroll-behavior: smooth;
+    /*faz a navegação da página ser suave*/
+    overflow-x: hidden;
+    /* remove o scroll lateral */
+    text-align: justify;
+}
 
+.BotaoVoltarAoTopo {
+    float: left;
+    margin-left: 28%;
+}
+
+.BotaoConteudoPrincipal {
+    width: 100%;
+}
+
+
+.copy {
+    font-weight: bold;
+    text-align: center;
+}
 
 
 
@@ -19,102 +41,6 @@
     border-radius: 10px;
 }
 
-
-/* Page videos Mobile */
-@media (max-width: 576px) {
-    
-.btnini{
-        text-align: center;
-        margin-top: 10px;
-    }
-
-.div_trail{
-    padding: 15px 0px 15px 0px;
-    text-align: center;
-}
-
-.header_videos{
-    text-align: center;
-}
-
-.btnini{
-    margin-top: 10px;
-}
-
-.footervid{
-    text-align: center;
-}
-
-.btnfoot{
-    margin-top: 10px;
-}
-
-#inicio{
-    padding: 10px 0px 10px 20px;
-    margin: 15px 0px 15px 0px;
-}
-
-.h2asside{
-    padding: 10px 0px 10px 20px;
-    margin: 15px 0px 15px 0px;
-
-}
-
-}
-
-@media (min-width: 576px) {
-    .btnini{
-        text-align: center;
-        margin-top: 10px;
-    }
-
-.div_trail{
-    padding: 15px 0px 15px 0px;
-    text-align: center;
-}
-
-.header_videos{
-    text-align: center;
-}
-
-.btnini{
-    margin-top: 10px;
-}
-
-.footervid{
-    text-align: center;
-}
-
-.btnfoot{
-    margin-top: 10px;
-}
-
-#inicio{
-    padding: 10px 0px 10px 20px;
-    margin: 15px 0px 15px 0px;
-}
-
-.h2asside{
-    padding: 10px 0px 10px 20px;
-    margin: 15px 0px 15px 0px;
-
-}
-
-}
-
-/* Page Videos tablet */
-@media (min-width:768px){
-    #inicio{
-        padding: 10px 0px 10px 20px;
-        margin: 15px 15px 15px 0px;
-    }
-    
-    .h2asside{
-        padding: 10px 0px 10px 20px;
-        margin: 15px 15px 15px 0px;
-    
-    }
-}
 
 
 
@@ -161,42 +87,14 @@
     margin: 0px 0px 10px 15px;
 }
 
-/* classes gerais para toda a página */
-html {
-    scroll-behavior: smooth;
-    /*faz a navegação da página ser suave*/
-    overflow-x: hidden;
-    /* remove o scroll lateral */
-    text-align: justify;
-}
 
-.BotaoVoltarAoTopo {
-    float: left;
-    margin-left: 28%;
-}
-
-.BotaoConteudoPrincipal {
-    width: 100%;
-}
-
-
-.teste {
-    border: 1px solid black;
-    width: 90%;
-    margin-left: 5%;
-}
-
-.copy {
-    font-weight: bold;
-    text-align: center;
-}
 
 
 @media (max-width: 576px) {
 
     /* tela doninha */
     .headerDoninha {
-        background-image: url(/images/Doninha\ principal\ Mobile.png);
+        background-image: url(../images/Doninha\ principal\ Mobile.png);
         background-size: cover;
         height: 500px;
         background-repeat: no-repeat;
@@ -206,11 +104,6 @@ html {
         height: 300px;
     }
 
-
-
-    .NoticiaDC2 {
-        display: none;
-    }
 
     /* Page videos Mobile */
 
@@ -279,7 +172,7 @@ html {
 
     /* tela doninha */
     .headerDoninha {
-        background-image: url(/images/Doninha\ principal\ Mobile.png);
+        background-image: url(../images/Doninha\ principal\ Mobile.png);
         background-size: cover;
         height: 500px;
         align-items: center;
@@ -290,11 +183,6 @@ html {
         height: 500px;
     }
 
-
-
-    .NoticiaDC2 {
-        display: none;
-    }
 
 
     /* Page Videos  */
@@ -363,7 +251,7 @@ html {
 
     /* tela doninha */
     .headerDoninha {
-        background-image: url(/images/Imagemdoninhamedia.png);
+        background-image: url(../images/Imagemdoninhamedia.png);
         background-size: initial;
         background-repeat: no-repeat;
     }
@@ -403,7 +291,7 @@ html {
 
     /* tela doninha */
     .headerDoninha {
-        background-image: url(/images/Imagemdoninhamedia.png);
+        background-image: url(../images/Imagemdoninhamedia.png);
         background-size: cover;
         height: 500px;
         align-items: center;
@@ -491,7 +379,6 @@ html {
 }
 
 #sectionmat {
-    display: block;
     vertical-align: top;
     margin: 10px;
     border: 1px solid black;
