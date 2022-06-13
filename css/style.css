@@ -42,7 +42,6 @@ html {
 }
 
 
-
 /* css geral page Videos */
 #inicio {
 
@@ -107,9 +106,27 @@ html {
 }
 
 
+/* css header */
+
+.navHeader{
+    background-color: #2c66eb;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.buttonLogoHeader{
+    background-color: #2c66eb;
+    color: #fff;
+border-style: none;
+}
+
 
 
 @media (max-width: 576px) {
+/* classe geral para todas as telas */
+    .imagemPersonagem{
+        margin-left: 6em;
+    }
 
     /* tela Home */
     .imgTopoHome{
@@ -206,6 +223,11 @@ html {
 
 
 @media (min-width: 576px) {
+    /* classes gerais para todas as telas */
+
+    .imagemPersonagem{
+        margin-left: 6em;
+    }
 
     /* tela Home */
 
@@ -311,6 +333,12 @@ html {
 
 
 @media (min-width:768px) {
+        /* classes gerais para todas as telas */
+
+        .imagemPersonagem{
+            margin-left: 6em;
+        }
+    
 
     /* tela Home */
     .imgTopoHome{
@@ -370,6 +398,11 @@ html {
 
 @media (min-width:992px) {
 
+         /* classes gerais para todas as telas */
+
+         .imagemPersonagem{
+            margin-left: 5em;
+        }
     
     /* tela Home */
 
