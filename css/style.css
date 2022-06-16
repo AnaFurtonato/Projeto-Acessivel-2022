@@ -31,7 +31,7 @@ html {
     margin: 0px 0px 50px 0px;
 }
 
-.botaonoticiaHome{
+.botaonoticiaHome, .botaonoticiaDC{
     text-align: center;
     background-color: #2c66eb;
     color: #fff;
@@ -147,15 +147,17 @@ border-style: none;
 
 
     /* tela doninha */
-    .headerDoninha {
-        background-image: url(../images/Doninha\ principal\ Mobile.png);
-        background-size: cover;
-        height: 500px;
-        background-repeat: no-repeat;
-    }
 
      .videoDoninha {
         height: 300px;
+    }
+
+    .imagemPersonagemDC{
+        margin-left: 5em;
+    }
+
+    .botaonoticiaDC{
+        margin-left: 30%;
     }
 
 
@@ -255,14 +257,15 @@ border-style: none;
         height: 100%;
     }
 
-    /* tela doninha */
-    .headerDoninha {
-        background-image: url(../images/Doninha\ principal\ Mobile.png);
-        background-size: cover;
-        height: 500px;
-        align-items: center;
-        background-repeat: no-repeat;
-    }
+   /* tela doninha */
+
+   .botaonoticiaDC{
+    margin-left: 33%;
+}
+
+.imagemPersonagemDC{
+    margin-left: 5em;
+}
 
      .videoDoninha {
         height: 500px;
@@ -346,7 +349,7 @@ border-style: none;
     }
 
     .botaonoticiaHome{
-        margin-left: 28%;
+        margin-left: 33%;
     }
 
 
@@ -359,12 +362,9 @@ border-style: none;
     }
 
     /* tela doninha */
-    .headerDoninha {
-        background-image: url(../images/Imagemdoninhamedia.png);
-        background-size: initial;
-        background-repeat: no-repeat;
+    .imagemPersonagemDC{
+        margin-left: 6em;
     }
-
      .videoDoninha {
         height: 500px;
     }
@@ -411,7 +411,7 @@ border-style: none;
     }
 
     .botaonoticiaHome{
-        margin-left: 37%;
+        margin-left: 30%;
     }
     .Video1Home{
         width: 60%;
@@ -429,14 +429,15 @@ border-style: none;
     }
 
     /* tela doninha */
-    .headerDoninha {
-        background-image: url(../images/Imagemdoninhamedia.png);
-        background-size: cover;
-        height: 500px;
-        align-items: center;
-        background-repeat: no-repeat;
+   
+    .imagemPersonagemDC{
+        margin-left: 7em;
     }
 
+    .botaonoticiaDC{
+        margin-left: 35%;
+    }
+    
     .videoDoninha {
         height: 600px;
     }
@@ -460,18 +461,19 @@ border-style: none;
 @media (min-width:1200px) {
 
     /* tela doninha */
-    .headerDoninha {
-        background-image: url(../images/ImagemPrincipalDoninha.png);
-
-        background-size: cover;
-        height: 500px;
-        align-items: center;
-        background-repeat: no-repeat;
-    }
 
     .videoDoninha {
         height: 500px;
     }
+
+    .imagemPersonagemDC{
+        margin-left: 6em;
+    }
+
+    .botaonoticiaDC{
+        margin-left: 34%;
+    }
+
 
     /* page Comic Con */
 
@@ -481,6 +483,24 @@ border-style: none;
 
 }
 
+
+@media (min-width:1400px) {
+
+    /* tela doninha */
+
+    .videoDoninha {
+        height: 500px;
+    }
+
+    .imagemPersonagemDC{
+        margin-left: 8.5em;
+    }
+
+    .botaonoticiaDC{
+        margin-left: 38%;
+    }
+    
+}
 
 
 /*tela materia*/
