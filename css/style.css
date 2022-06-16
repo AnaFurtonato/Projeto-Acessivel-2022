@@ -543,75 +543,95 @@ html {
 
 
 /*tela materia*/
-#pmat {
-    margin: 10px 20px;
+
+.bomat {
+    width: 100%;
 }
 
-.container {
-    padding: auto;
-}
 
-/* .bodymat {
-    background-color:  #ecec44 ;
- } */
+#img1 {
+    width: 100%;
+}
 
 .navmat {
     text-align: center;
     margin: 20px 80px 20px 80px;
+    font-family:"inter", sans-serif;
 }
 
-.listmat {
+.listmat{
     margin: 10%;
     text-decoration: none;
     display: inline;
+    font-family:"inter", sans-serif;
 }
 
 .nommat {
-    margin-top: 20px;
-    margin: 20px;
+    background-color: #2c66eb;
+    color: #fff;
+    font-family: "inter", sans-serif;
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+    margin: 0px 0px 50px 0px;
 }
 
-#fmat {
+#fmat{
+    width: 100%;
     float: left;
     display: flex;
     justify-content: center;
+    margin: 10px auto;
 }
 
 #sectionmat {
-    vertical-align: top;
+    display: block;
     margin: 10px;
-    border: 1px solid black;
-    border-radius: 10px;
-    background-color: #fff;
 }
 
 .hmat {
-    font-size: 1.1em;
     margin: 20px;
+    font-family:"inter", sans-serif;
 }
 
 .hmat1 {
-    font-size: .75em;
     margin: 10px 20px;
+    font-family:"inter", sans-serif;
 }
 
 .pmat {
-    font-size: .7em;
     margin: 20px;
+    font-family:"inter", sans-serif;
+}
+
+.ppmat {
+    font-family:"inter", sans-serif;
+    margin: 10px 20px;
 }
 
 #asidemat {
-    display: block;
-    float: right;
     margin: 20px;
 }
 
-.asmat {
-    margin: 20px 50px 20px 100px;
+#asmat{
+    margin: 0px 50px 20px 50px;
 }
 
-.asmat1 {
-    margin: 20px 100px 20px 100px;
+#asmat1{
+    margin: 0px 100px 20px 50px;
+}
+
+#buttonm {
+    text-align: center;
+    background-color: #2c66eb;
+    color: #fff;
+    font-family: "inter", sans-serif;
+    margin:0px 20px 25px 20px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+}
+
+#buttonm:hover{
+    background-color: #808080;
 }
 
 
@@ -884,51 +904,61 @@ html {
 }
 
 /* tela noticias*/
+.h1not{
+    background-color: #2c66eb;
+    color: #fff;
+    font-family: "inter", sans-serif;
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+    margin: 0px 0px 50px 0px;
+}
 
-/* .bodynot {
-    background-color:  #2c66eb ;
-} */
-
-.h1not {
-    margin: 20px;
+.noth1 {
+    text-align: center;
 }
 
 .card {
     margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 0.1em #808080;
 }
 
 .card-img-top {
     display: block;
-    margin: 20px auto;
     padding: auto;
+    border-radius: 10px 10px 0px 0px;
 }
 
 #button {
-    margin: 20px;
-    background-color: #b4d6e6;
-    border: 1px solid #2c66eb;
-    border-radius: 5px;
-    width: 90px;
-    height: 30px;
-    font-size: .8em;
     text-align: center;
+    background-color: #2c66eb;
+    color: #fff;
+    font-family: "inter", sans-serif;
+    margin:0px 20px 25px 20px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+}
+
+#button:hover{
+    background-color: #808080;
 }
 
 #sectionnot {
     display: inline-block;
     vertical-align: top;
     margin: 20px 30px;
-    border: 1px solid black;
-    border-radius: 10px;
-    background-color: #fff;
-    background-image: url("../images/imagemrev.jpg");
-    background-repeat: no-repeat;
 }
 
-.sec1 {
+.sec1{
     float: left;
 }
 
 .sec2 {
     float: right;
+}
+
+
+.asidnot {
+    width: 100%;
+    text-align: center;
 }
