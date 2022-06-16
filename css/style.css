@@ -7,6 +7,10 @@ html {
     text-align: justify;
 }
 
+body{
+    font-family: "inter", sans-serif;
+}
+
 .BotaoVoltarAoTopo {
     float: left;
     margin-left: 28%;
