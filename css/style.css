@@ -1,115 +1,3 @@
-HEAD
-
-#inicio{
-
-    background-color: #2C66EB;
-    color: #fff;
-    border-radius: 10px;
-}
-
-.h2asside{
-
-    background-color: #2C66EB;
-    color: #fff;
-    border-radius: 10px;
-}
-
-/* Page videos Mobile */
-@media (max-width: 576px) {
-    
-.btnini{
-        text-align: center;
-        margin-top: 10px;
-    }
-
-.div_trail{
-    padding: 15px 0px 15px 0px;
-    text-align: center;
-}
-
-.header_videos{
-    text-align: center;
-}
-
-.btnini{
-    margin-top: 10px;
-}
-
-.footervid{
-    text-align: center;
-}
-
-.btnfoot{
-    margin-top: 10px;
-}
-
-#inicio{
-    padding: 10px 0px 10px 20px;
-    margin: 15px 0px 15px 0px;
-}
-
-.h2asside{
-    padding: 10px 0px 10px 20px;
-    margin: 15px 0px 15px 0px;
-
-}
-
-}
-
-@media (min-width: 576px) {
-    .btnini{
-        text-align: center;
-        margin-top: 10px;
-    }
-
-.div_trail{
-    padding: 15px 0px 15px 0px;
-    text-align: center;
-}
-
-.header_videos{
-    text-align: center;
-}
-
-.btnini{
-    margin-top: 10px;
-}
-
-.footervid{
-    text-align: center;
-}
-
-.btnfoot{
-    margin-top: 10px;
-}
-
-#inicio{
-    padding: 10px 0px 10px 20px;
-    margin: 15px 0px 15px 0px;
-}
-
-.h2asside{
-    padding: 10px 0px 10px 20px;
-    margin: 15px 0px 15px 0px;
-
-}
-
-}
-
-/* Page Videos tablet */
-@media (min-width:768px){
-    #inicio{
-        padding: 10px 0px 10px 20px;
-        margin: 15px 15px 15px 0px;
-    }
-    
-    .h2asside{
-        padding: 10px 0px 10px 20px;
-        margin: 15px 15px 15px 0px;
-    
-    }
-}
-
 /* classes gerais para toda a página */
 html {
     scroll-behavior: smooth;
@@ -129,58 +17,408 @@ html {
 }
 
 
-.teste {
-    border: 1px solid black;
-    width: 90%;
-    margin-left: 5%;
+.copy {
+    font-weight: bold;
+    text-align: center;
 }
+
+.h1superior {
+    background-color: #2c66eb;
+    color: #fff;
+    font-family: "inter", sans-serif;
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+    margin: 0px 0px 50px 0px;
+}
+
+.botaonoticiaHome, .botaonoticiaDC{
+    text-align: center;
+    background-color: #2c66eb;
+    color: #fff;
+    font-family: "inter", sans-serif;
+    margin: 0px 20px 25px 20px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+}
+
+
+/* css geral page Videos */
+#inicio {
+    background-color: #2C66EB;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.h2asside {
+
+
+    background-color: #2C66EB;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.objvid {
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px;
+    border: #2C66EB solid 2px;
+}
+
+.bodyvid {
+    background-color: #000;
+}
+
+.btnini {
+    margin: 20px 0px 20px 0px;
+}
+
+
+
+
+/* css geral page Comic Con */
+
+.headercc {
+    margin-bottom: 25px;
+}
+
+.headercc img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#inicc {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.pccxp {
+    margin: 0px 15px 0px 15px;
+    font-size: 1.4em;
+}
+
+.imgccxp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.h1tal {
+    text-align: center;
+    margin: 0px 0px 25px 0px;
+}
+
+
+.h2ing {
+    margin: 5px 15px 15px 15px;
+}
+
+.h2fim {
+    margin: 0px 0px 10px 15px;
+}
+
+
+/* css header */
+
+.navHeader {
+    background-color: #2c66eb;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.buttonLogoHeader {
+    background-color: #2c66eb;
+    color: #fff;
+    border-style: none;
+}
+
 
 
 @media (max-width: 576px) {
 
-    /* tela doninha */
-    .headerDoninha {
-        background-image: url(/images/Doninha\ principal\ Mobile.png);
-        background-size: cover;
-        height: 500px;
-        background-repeat: no-repeat;
+    /* classe geral para todas as telas */
+    .imagemPersonagem {
+        margin-left: 6em;
     }
 
-     .videoDoninha {
+    /* tela Home */
+    .imgTopoHome {
+        width: 100%;
+    }
+
+    .botaonoticiaHome {
+        margin-left: 28%;
+    }
+
+    .cardHome {
+        margin: 50px 0px 50px 0px;
+        border-radius: 10px;
+        box-shadow: 0 0 0.1em #808080;
+        margin-left: 15px;
+    }
+
+
+
+    /* tela doninha */
+
+    .videoDoninha {
         height: 300px;
     }
+
+    .imagemPersonagemDC{
+        margin-left: 5em;
+    }
+
+    .botaonoticiaDC{
+        margin-left: 30%;
+    }
+
+
+    /* Page videos Mobile */
+
+    .btnini {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .div_trail {
+        padding: 15px 0px 15px 0px;
+        text-align: center;
+
+    }
+
+    .header_videos {
+        text-align: center;
+    }
+
+    .footervid {
+        text-align: center;
+    }
+
+    .btnfoot {
+        margin-top: 10px;
+
+    }
+
+    #inicio {
+        padding: 10px 0px 10px 20px;
+        margin: 15px 0px 15px 0px;
+    }
+
+    .h2asside {
+        padding: 10px 0px 10px 20px;
+        margin: 15px 0px 15px 0px;
+
+    }
+
+    .objvid {
+        width: 350px;
+        height: 350px;
+    }
+
+
+    /* page Comic Con */
+    .diving {
+        text-align: center;
+        margin: 45px 0px 45px 0px;
+    }
+
+    .h3ingd {
+        margin: 25px 0px 20px 0px;
+    }
+
+    .divart {
+        text-align: center;
+        margin: 45px 0px 45px 0px;
+    }
+
+    .hart {
+        margin: 5px 0px 0px 0px;
+    }
+
+
 
 }
 
 
 @media (min-width: 576px) {
+    /* classes gerais para todas as telas */
 
-    /* tela doninha */
-    .headerDoninha {
-        background-image: url(/images/Doninha\ principal\ Mobile.png);
-        background-size: cover;
-        height: 500px;
-        align-items: center;
-        background-repeat: no-repeat;
+    .imagemPersonagem {
+        margin-left: 6em;
     }
 
-     .videoDoninha {
+    /* tela Home */
+
+    .imgTopoHome {
+        width: 100%;
+    }
+
+    .botaonoticiaHome {
+        margin-left: 37%;
+    }
+
+    .Video1Home {
+        width: 100%;
+        height: 400px;
+    }
+
+    .Video2Home {
+        width: 50%;
+        height: 250px;
+    }
+
+    .cardHome {
+        border-radius: 10px;
+        box-shadow: 0 0 0.1em #808080;
+        margin-left: 0px;
+        height: 100%;
+    }
+
+   /* tela doninha */
+
+   .botaonoticiaDC{
+    margin-left: 33%;
+}
+
+.imagemPersonagemDC{
+    margin-left: 5em;
+}
+
+    .videoDoninha {
         height: 500px;
     }
+
+
+
+    /* Page Videos  */
+
+    .btnini {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .div_trail {
+        padding: 15px 0px 15px 0px;
+        text-align: center;
+    }
+
+    .header_videos {
+        text-align: center;
+    }
+
+    .btnini {
+        margin-top: 10px;
+    }
+
+    .footervid {
+        text-align: center;
+    }
+
+    .btnfoot {
+        margin-top: 10px;
+    }
+
+    #inicio {
+        padding: 10px 0px 10px 20px;
+        margin: 15px 0px 15px 0px;
+    }
+
+    .h2asside {
+        padding: 10px 0px 10px 20px;
+        margin: 15px 0px 15px 0px;
+
+    }
+
+    .objvid {
+        width: 450px;
+        height: 300px;
+    }
+
+    /* page Comic Con */
+    .diving {
+        text-align: center;
+        margin: 45px 0px 45px 0px;
+    }
+
+    .h3ingd {
+        margin: 25px 0px 20px 0px;
+    }
+
+    .divart {
+        text-align: center;
+        margin: 45px 0px 45px 0px;
+    }
+
+    .hart {
+        margin: 5px 0px 0px 0px;
+    }
+
+
 }
 
 
 @media (min-width:768px) {
+    /* classes gerais para todas as telas */
 
-    /* tela doninha */
-    .headerDoninha {
-        background-image: url(/images/Imagemdoninhamedia.png);
-        background-size: initial;
-        background-repeat: no-repeat;
+    .imagemPersonagem {
+        margin-left: 6em;
     }
 
+
+    /* tela Home */
+    .imgTopoHome {
+        width: 100%;
+    }
+
+    .botaonoticiaHome{
+        margin-left: 33%;
+    }
+
+
+    .cardHome {
+        margin: 50px 0px 50px 0px;
+        border-radius: 10px;
+        box-shadow: 0 0 0.1em #808080;
+        margin-left: 0px;
+        height: 100%;
+    }
+
+    /* tela doninha */
+    .imagemPersonagemDC{
+        margin-left: 6em;
+    }
      .videoDoninha {
         height: 500px;
+    }
+
+    /* Page Videos tablet */
+
+    #inicio {
+        padding: 10px 0px 10px 20px;
+        margin: 15px 15px 15px 0px;
+    }
+
+    .h2asside {
+        padding: 10px 0px 10px 20px;
+        margin: 15px 15px 15px 0px;
+
+    }
+
+    .objvid {
+        width: 300px;
+        height: 300px;
+    }
+
+    /* page Comic Con */
+
+    .diving {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .divart {
+        text-align: center;
+        margin: 45px 0px 45px 0px;
     }
 
 }
@@ -188,17 +426,67 @@ html {
 
 @media (min-width:992px) {
 
-    /* tela doninha */
-    .headerDoninha {
-        background-image: url(/images/Imagemdoninhamedia.png);
-        background-size: cover;
-        height: 500px;
-        align-items: center;
-        background-repeat: no-repeat;
+    /* classes gerais para todas as telas */
+
+    .imagemPersonagem {
+        margin-left: 5em;
     }
 
+    /* tela Home */
+
+    .imgTopoHome {
+        width: 100%;
+    }
+
+    .botaonoticiaHome{
+        margin-left: 30%;
+    }
+
+    .Video1Home {
+        width: 60%;
+        height: 500px;
+    }
+
+    .Video2Home {
+        width: 40%;
+        height: 250px;
+    }
+
+    .cardHome {
+        border-radius: 10px;
+        box-shadow: 0 0 0.1em #808080;
+    }
+
+    /* tela doninha */
+   
+    .imagemPersonagemDC{
+        margin-left: 7em;
+    }
+
+    .botaonoticiaDC{
+        margin-left: 35%;
+    }
+    
     .videoDoninha {
         height: 600px;
+    }
+
+    /* page Comic Con */
+
+    .diving {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .divart {
+        text-align: center;
+        margin: 45px 0px 45px 0px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    /* page Videos */
+    .objvid {
+        width: 450px;
+        height: 300px;
     }
 
 
@@ -209,56 +497,128 @@ html {
 @media (min-width:1200px) {
 
     /* tela doninha */
-    .headerDoninha {
-        background-image: url(../images/ImagemPrincipalDoninha.png);
-
-        background-size: cover;
-        height: 500px;
-        align-items: center;
-        background-repeat: no-repeat;
-    }
 
     .videoDoninha {
         height: 500px;
     }
 
+    .imagemPersonagemDC{
+        margin-left: 6em;
+    }
+
+    .botaonoticiaDC{
+        margin-left: 34%;
+    }
+
+
+    /* page Comic Con */
+
+    .diving{
+        padding: 0px 10px 0px 10px;
+    }
+
 
 }
 
-/*Tela HQ*/
 
-.h1marvel{
+@media (min-width:1400px) {
+
+    /* tela doninha */
+
+    .videoDoninha {
+        height: 500px;
+    }
+
+    .imagemPersonagemDC{
+        margin-left: 8.5em;
+    }
+
+    .botaonoticiaDC{
+        margin-left: 38%;
+    }
+    
+}
+
+
+/*tela materia*/
+
+.bomat {
+    width: 100%;
+}
+
+
+#img1 {
+    width: 100%;
+}
+
+.navmat {
+    text-align: center;
+    margin: 20px 80px 20px 80px;
+    font-family:"inter", sans-serif;
+}
+
+.listmat{
+    margin: 10%;
+    text-decoration: none;
+    display: inline;
+    font-family:"inter", sans-serif;
+}
+
+.nommat {
     background-color: #2c66eb;
     color: #fff;
-    text-align: center;
-    padding: 40px 0px 40px 0px;
-}
-
-.h1dc{
-    background-color: #2c66eb;
-    color: #fff;
-    text-align: center;
-    padding: 40px 0px 40px 0px;
-}
-
-.h5card{
-    margin:15px 0px 15px 0px;
-    text-align: center;
-}
-
-.card{
-    margin:50px 0px 50px 0px;
-    border-radius: 10px;
-    box-shadow: 0 0 0.1em #808080;
-}
-
-.textocard{
     font-family: "inter", sans-serif;
     text-align: center;
-    margin:0px 15px 20px 15px;
+    padding: 40px 0px 40px 0px;
+    margin: 0px 0px 50px 0px;
 }
 
-.botao{
+#fmat{
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+#sectionmat {
+    display: block;
+    margin: 10px;
+}
+
+.hmat {
+    margin: 20px;
+    font-family:"inter", sans-serif;
+}
+
+.hmat1 {
+    margin: 10px 20px;
+    font-family:"inter", sans-serif;
+}
+
+.pmat {
+    margin: 20px;
+    font-family:"inter", sans-serif;
+}
+
+.ppmat {
+    font-family:"inter", sans-serif;
+    margin: 10px 20px;
+}
+
+#asidemat {
+    margin: 20px;
+}
+
+#asmat{
+    margin: 0px 50px 20px 50px;
+}
+
+#asmat1{
+    margin: 0px 100px 20px 50px;
+}
+
+#buttonm {
     text-align: center;
     background-color: #2c66eb;
     color: #fff;
@@ -268,11 +628,59 @@ html {
     border-radius: 20px;
 }
 
-.botao:hover{
+#buttonm:hover{
+    background-color: #808080;
+}
+
+
+/*Tela HQ*/
+
+.h1marvel {
+    background-color: #2c66eb;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+}
+
+.h1dc {
+    background-color: #2c66eb;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+}
+
+.h5card {
+    margin: 15px 0px 15px 0px;
+    text-align: center;
+}
+
+.card {
+    margin: 50px 0px 50px 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 0.1em #808080;
+}
+
+.textocard {
+    font-family: "inter", sans-serif;
+    text-align: center;
+    margin: 0px 15px 20px 15px;
+}
+
+.botao {
+    text-align: center;
+    background-color: #2c66eb;
+    color: #fff;
+    font-family: "inter", sans-serif;
+    margin: 0px 20px 25px 20px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+}
+
+.botao:hover {
     color: #ffff;
 }
 
-.imgcard{
+.imgcard {
     border-radius: 10px 10px 0px 0px;
 }
 
@@ -281,7 +689,7 @@ html {
 
 /*Tela MARVEL*/
 
-.NomePersonagemMarvel{
+.NomePersonagemMarvel {
     background-color: #2c66eb;
     color: #fff;
     font-family: "inter", sans-serif;
@@ -290,50 +698,58 @@ html {
     margin: 0px 0px 50px 0px;
 }
 
-.h2Marvel{
+.h2Marvel {
     font-family: "inter", sans-serif;
     text-align: center;
     margin: 50px 0px 20px 0px;
 }
-.h2TituloMarvel{
+
+.h2TituloMarvel {
     font-family: "inter", sans-serif;
     text-align: center;
     margin: 0px 0px 20px 0px;
 }
-.h2varianteMarvel{
-    font-family: "inter", sans-serif;
-    text-align: center;
-    color: #fff;
-}
-.h4varianteMarvel{
+
+.h2varianteMarvel {
     font-family: "inter", sans-serif;
     text-align: center;
     color: #fff;
 }
 
-.imgPersonagemMarvel{
+.h4varianteMarvel {
+    font-family: "inter", sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+.imgPersonagemMarvel {
     margin: 20px 0px 20px 0px;
     border-radius: 10px;
 }
-.imagemloki{
+
+.imagemloki {
     margin: 0px 0px 30px 0px;
 }
+
 .imagemMarvel {
-    text-align: center;  
+    text-align: center;
 }
-.variantes{
+
+.variantes {
     background-color: #000;
     padding: 80px 10px 80px 10px;
 
 }
-.pvarianteMarvel{
+
+.pvarianteMarvel {
     color: white;
 }
 
-.VideoTelaMarvel{
-    text-align: center; 
-    margin: 50px 0px 50px 0px;  
+.VideoTelaMarvel {
+    text-align: center;
+    margin: 50px 0px 50px 0px;
 }
+
 .videosMarvel{
     width: 500px;
     height: 400px;
@@ -347,70 +763,175 @@ html {
 
 
 
-.imgoutrosPersonagemMarvel{
+.imgoutrosPersonagemMarvel {
     text-align: center;
-    margin:50px 0px 20px 0px;
+    margin: 50px 0px 20px 0px;
 }
 
-.imgoutrosPersonagemMarvel2{
+.imgoutrosPersonagemMarvel2 {
     text-align: center;
-    margin:0px 0px 20px 0px;
+    margin: 0px 0px 20px 0px;
 }
 
-.outrosPersonagemMarvel{
+.outrosPersonagemMarvel {
     text-align: center;
-    margin:0px 0px 5px 0px;
+    margin: 0px 0px 5px 0px;
 }
 
-.tituloOutrosPersonagemMarvel{
-    margin:0px 0px 20px 0px;
+.tituloOutrosPersonagemMarvel {
+    margin: 0px 0px 20px 0px;
     text-align: start;
 }
 
 
-.BotaoPersonagemMarvel{
+
+.BotaoPersonagemMarvel {
     text-align: center;
     background-color: #2c66eb;
     color: #fff;
     font-family: "inter", sans-serif;
-    margin:0px 0px 50px 0px;
+    margin: 0px 0px 50px 0px;
     padding: 10px 25px 10px 25px;
     border-radius: 20px;
 
 }
 
-.BotaoPersonagemMarvel:hover{
+.BotaoPersonagemMarvel:hover {
+    color: #ffff;
+}
+
+
+.h5noticia {
+    font-family: "inter", sans-serif;
+    margin: 15px 0px 15px 0px;
+    padding: 0px 10px 0px 10px;
+}
+
+.h7noticia {
+    font-family: "inter", sans-serif;
+    padding: 0px 10px 0px 10px;
+}
+
+
+.textonoticia {
+
+    font-family: "inter", sans-serif;
+    padding: 0px 10px 0px 10px;
+
+}
+
+.imgnoticia {
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+.botaonoticia {
+    text-align: center;
+    background-color: #2c66eb;
+    color: #fff;
+    font-family: "inter", sans-serif;
+    margin: 0px 20px 25px 20px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+}
+
+.botaonoticia:hover {
     color: #ffff;
 }
 
 
 
 
-.h5noticia{
-     font-family: "inter", sans-serif;
-     margin:15px 0px 15px 0px;
-     padding: 0px 10px 0px 10px;
+
+  
+ 
+/*tela quem somos */
+.sobre{
+    text-align: center;
 }
 
-.h7noticia{
-    font-family: "inter", sans-serif; 
-    padding: 0px 10px 0px 10px;   
+.h2sobre {
+    background-color: #2c66eb;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+    margin: 0px 0px 50px 0px;
 }
 
+.conteudosobre {
+    margin: 0px 0px 50px 0px;
+}
 
-.textonoticia{
+.h3sobre {
+    margin: 15px 0px 15px 0px;
+}
 
+.psobre {
     font-family: "inter", sans-serif;
-    padding: 0px 10px 0px 10px;  
-    
 }
 
-.imgnoticia{
+
+/*tela politica de privacidade */
+
+.mainpolitica {
+    margin: 20px 20px 20px 20px;
+}
+
+.h2politica {
+    background-color: #2c66eb;
+    color: #fff;
+    text-align: center;
+    font-family: "inter", sans-serif;
+    padding: 40px 0px 40px 0px;
+}
+
+.h4politica {
+    font-family: "inter", sans-serif;
+    margin: 15px 0px 15px 0px;
+}
+
+.psobre {
+    font-family: "inter", sans-serif;
+}
+
+#buttonm {
+    margin: 5px 10px;
+    background-color: #b4d6e6;
+    border: 1px solid #2c66eb;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    font-size: .8em;
+    text-align: center;
+}
+
+/* tela noticias*/
+.h1not{
+    background-color: #2c66eb;
+    color: #fff;
+    font-family: "inter", sans-serif;
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+    margin: 0px 0px 50px 0px;
+}
+
+.noth1 {
+    text-align: center;
+}
+
+.card {
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 0.1em #808080;
+}
+
+.card-img-top {
+    display: block;
+    padding: auto;
     border-radius: 10px 10px 0px 0px;
 }
 
-
-.botaonoticia{
+#button {
     text-align: center;
     background-color: #2c66eb;
     color: #fff;
@@ -420,61 +941,26 @@ html {
     border-radius: 20px;
 }
 
-.botaonoticia:hover{
-    color: #ffff;
+#button:hover{
+    background-color: #808080;
+}
+
+#sectionnot {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 30px;
+}
+
+.sec1{
+    float: left;
+}
+
+.sec2 {
+    float: right;
 }
 
 
-
-
-  
-  
-  
-  /*tela quem somos */
-  
-  .sobre{
+.asidnot {
+    width: 100%;
     text-align: center;
-  }
-
-  .h2sobre{
-    background-color: #2c66eb;
-    color: #fff;
-    text-align: center;
-    padding: 40px 0px 40px 0px;
-    margin:0px 0px 50px 0px;
-}
-.conteudosobre{
-    margin:0px 0px 50px 0px;
-}
-
-.h3sobre{
-    margin:15px 0px 15px 0px;
-}
-
-.psobre{
-    font-family: "inter", sans-serif; 
-}
-
-
-  /*tela politica de privacidade */
-
-  .mainpolitica{
-      margin: 20px 20px 20px 20px;
-  }
-  
-  .h2politica{
-    background-color: #2c66eb;
-    color: #fff;
-    text-align: center;
-    font-family: "inter", sans-serif; 
-    padding: 40px 0px 40px 0px;
-}
-
-.h4politica{
-    font-family: "inter", sans-serif; 
-    margin:15px 0px 15px 0px;
-}
-
-.psobre{
-    font-family: "inter", sans-serif; 
 }
