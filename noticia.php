@@ -67,7 +67,7 @@
                     <div class="col-sm-12 col-md-5 col-lg-5 sectionnot">
                         <div class="card">
                             <section class="sec1">
-                                <img class="card-img-top" src="images/Doninha390x194.jpg" alt="Personagem Doninha verde, com sua versão animada a esqueda e sua versão live action a direita.">
+                                <img class="card-img-top" src="images/Doninha390x194.jpg" alt="Personagem Doninha, com sua versão animada a esqueda e sua versão live action a direita.">
                                 <h2 class="hmat">Doninha</h2>
                                 <h4 class="hmat1">Autor: Allysson Ernandes</h4>
                                 <p class="pmat">Conheça mais sobre O Doninha, personagem da DC Comics</p>
