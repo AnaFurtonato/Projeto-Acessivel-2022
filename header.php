@@ -12,12 +12,14 @@
 
 <body>
 
-    <nav class="mr-5 row navHeader">
+    <nav class=" navHeader ">
+
+    <Div class="container-fluid row">
 
 
-        <div class="col-12 col-sm-2 col-md-3 col-lg-3"> 
+        <div class="col-12 col-sm-2 col-md-3 col-lg-3">
             <Button onclick="window.location.href='index.html';" class="col-12 buttonLogoHeader">
-            <img src="images/logo2.png" alt="logo">
+                <img src="images/logo2.png" alt="logo">
             </Button>
         </div>
 
@@ -36,17 +38,14 @@
         </div>
 
         <div class="col-6 col-sm-2 col-md-2 col-lg-2 p-4">
-            <button onclick="window.location.href='hq.html';" class="btn btn-dark col-12">HQ's   </button>
+            <button onclick="window.location.href='hq.html';" class="btn btn-dark col-12">HQ's </button>
         </div>
 
-        
+        </Div>
 
     </nav>
 
 
-
-    <script src="/js/bootstrap.bundle.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
 
 </body>
 

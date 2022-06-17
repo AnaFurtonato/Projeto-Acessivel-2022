@@ -15,10 +15,12 @@
 
 <body>
 
+    <?php include 'header.php'; ?>
+
     <div class="container-fluid">
-        <main class="">
+        <main>
             <div class="row">
-                <h2 class="h2politica">Política de Privacidade</h2>
+                <h2 id="topo" class="h2politica">Política de Privacidade</h2>
 
                 <article class="col-xs-10 col-sm-12 col-md-12 col-lg-12"> 
                     <div class="mainpolitica">
@@ -67,12 +69,21 @@
                     </div>          
 
                 </article>
+
+                <footer class="BotaoVoltarAoTopo row">
+                <button onclick="window.location.href='politica.php#topo';"
+                    class="col-5 btn btn-dark justify-content-center">Voltar ao Topo</button>
+          
+                    
+                </footer>
+
+                <?php include 'footer.php'; ?>
             </div>    
         </main>
     </div>  
-    <footer class="footer">
 
-    </footer>
+   
+      
 
 
 </body>
