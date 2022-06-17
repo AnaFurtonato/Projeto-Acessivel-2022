@@ -549,20 +549,8 @@ body{
 
 /*tela materia*/
 
-.bomat {
-    width: 100%;
-}
 
 
-.img1 {
-    width: 100%;
-}
-
-.navmat {
-    text-align: center;
-    margin: 20px 80px 20px 80px;
-    font-family:"inter", sans-serif;
-}
 
 .listmat{
     margin: 10%;
@@ -580,13 +568,6 @@ body{
     margin: 0px 0px 50px 0px;
 }
 
-.fmat{
-    width: 100%;
-    float: left;
-    display: flex;
-    justify-content: center;
-    margin: 10px auto;
-}
 
 
 .hmat {
@@ -609,14 +590,6 @@ body{
     margin: 10px 20px;
 }
 
-
-.asmat{
-    margin: 0px 50px 20px 50px;
-}
-
-.asmat1{
-    margin: 0px 100px 20px 50px;
-}
 
 .buttonm {
     text-align: center;
