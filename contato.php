@@ -13,6 +13,9 @@
 </head>
 <body>
 
+    <div class="pb-3"><?php include 'header.php'; ?></div>
+
+
     <div class="container">
     <h1 class="pt-5 pb-5">
         Entre em Contato:
@@ -52,6 +55,7 @@
         </Div>
     </div>
     
+   <div class="pt-5"> <?php include 'footer.php'; ?> </div>
 </div>
 
 </body>
