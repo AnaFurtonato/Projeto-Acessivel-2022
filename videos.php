@@ -8,13 +8,13 @@
     <title>Videos</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="">
-    <link rel="stylesheet" type="text/css" href="">
 </head>
 
 <body class="bodyvid">
 
 <div class="container-fluid">
+
+    <?php include 'header.php'; ?>
 
     <header class="header_videos">
         <button onclick="window.location.href='videos.html#inicio';" class=" btnini btn btn-primary col-12 col-sm-12 col-md-12">Ir Direto para O conteúdo Principal</button>
@@ -61,6 +61,7 @@
         <button  onclick="window.location.href='videos.html#inicio';" class="btnfoot btn btn-primary" >Voltar ao Topo</button>
     </footer>
     
+    <?php include 'footer.php'; ?> 
 </div>
 
 
