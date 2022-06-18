@@ -18,27 +18,27 @@
 
 
         <div class="col-12 col-sm-2 col-md-3 col-lg-3">
-            <Button onclick="window.location.href='index.html';" class="col-12 buttonLogoHeader">
+            <Button onclick="window.location.href='index.php';" class="col-12 buttonLogoHeader">
                 <img src="images/logo2.png" alt="logo">
             </Button>
         </div>
 
         <div class="col-6 col-sm-2 col-md-2 col-lg-2 p-4">
-            <Button onclick="window.location.href='index.html';" class="btn btn-dark col-12">Home</Button>
+            <Button onclick="window.location.href='index.php';" class="btn btn-dark col-12">Home</Button>
         </div>
 
         <div class="col-6 col-sm-2 col-md-2 col-lg-2 p-4">
-            <button onclick="window.location.href='videos.html';" class="btn btn-dark col-12">Vídeos</button>
+            <button onclick="window.location.href='videos.php';" class="btn btn-dark col-12">Vídeos</button>
 
         </div>
 
         <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-4">
-            <button onclick="window.location.href='comiccon.html';" class="btn btn-dark col-12">Comic-Con</button>
+            <button onclick="window.location.href='comiccon.php';" class="btn btn-dark col-12">Comic-Con</button>
 
         </div>
 
         <div class="col-6 col-sm-2 col-md-2 col-lg-2 p-4">
-            <button onclick="window.location.href='hq.html';" class="btn btn-dark col-12">HQ's </button>
+            <button onclick="window.location.href='hq.php';" class="btn btn-dark col-12">HQ's </button>
         </div>
 
         </Div>

@@ -16,7 +16,7 @@
 
 
     <div class="BotaoConteudoPrincipal">
-        <button onclick="window.location.href='noticia.html#Noticias';" class="btn btn-dark col-12 col-sm-12 col-md-12">Ir
+        <button onclick="window.location.href='noticia.php#Noticias';" class="btn btn-dark col-12 col-sm-12 col-md-12">Ir
             Direto para O conteúdo Principal</button>
     </div>
 
@@ -45,7 +45,7 @@
                                 <h2 class="hmat">Arqueiro Verde</h2>
                                 <h4 class="hmat1">Autor: Nayara Nunes</h4>
                                 <p class="pmat">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis similique dolore repellendus, fuga pariatur, ratione nesciunt aliquam doloribus ipsa accusamus minus, nisi tenetur.</p>
-                                <button class="btn btn-primary buttonnoticia" onclick="window.location.href='';">Saiba mais</button>
+                                <button class="btn btn-primary buttonnoticia" onclick="window.location.href='materia-arqeuiro.php';">Saiba mais</button>
                             </section>
                         </div>
                     </div>
@@ -70,8 +70,8 @@
                                 <img class="card-img-top" src="images/Doninha390x194.jpg" alt="Personagem Doninha, com sua versão animada a esqueda e sua versão live action a direita.">
                                 <h2 class="hmat">Doninha</h2>
                                 <h4 class="hmat1">Autor: Allysson Ernandes</h4>
-                                <p class="pmat">Conheça mais sobre O Doninha, personagem da DC Comics</p>
-                                <button type="button" class="btn btn-primary buttonnoticia" onclick="window.location.href='doninha.html';">Saiba mais</button>
+                                <p class="pmat">Conheça mais curiosidades sobre O Doninha, personagem da DC Comics</p>
+                                <button type="button" class="btn btn-primary buttonnoticia" onclick="window.location.href='materia-doninha.php';">Saiba mais</button>
                             </section>
                         </div>
                     </div>
@@ -84,7 +84,7 @@
                                 <h4 class="hmat1">Autor: Júlio Gabriel</h4>
                                 <p class="pmat">O jovem Virgil Hawkins ganha incríveis poderes eletromagnéticos
                                     após de ser exposto a um estranho gás.</p>
-                                <button type="button" class="btn btn-primary buttonnoticia" onclick="window.location.href='superchoque.html';">Saiba mais</button>
+                                <button type="button" class="btn btn-primary buttonnoticia" onclick="window.location.href='materia-superchoque.php';">Saiba mais</button>
                             </section>
                         </div>
                     </div>
@@ -110,7 +110,7 @@
                                 <h2 class="hmat">Loki</h2>
                                 <h4 class="hmat1">Autor: Ana Clara</h4>
                                 <p class="pmat">Conheça mais sobre Loki, famoso personagem da Marvel</p>
-                                <button type="button" class="btn btn-primary buttonnoticia" onclick="window.location.href='loki.html';">Saiba mais</button>
+                                <button type="button" class="btn btn-primary buttonnoticia" onclick="window.location.href='materia-loki.php';">Saiba mais</button>
                             </section>
                         </div>
                     </div>
@@ -124,7 +124,7 @@
                                 <p class="pmat">Conheça a história de T'Challa, o famoso Pantera Negra -
                                     Wakanda
                                     Forever</p>
-                                <button type="button" class="btn btn-primary buttonnoticia" onclick="window.location.href='pantera.html';">Saiba mais</button>
+                                <button type="button" class="btn btn-primary buttonnoticia" onclick="window.location.href='materia-pantera.php';">Saiba mais</button>
                             </section>
                         </div>
                     </div>
@@ -136,7 +136,7 @@
                                 <h2 class="hmat">Venom</h2>
                                 <h4 class="hmat1">Autor: Allysson Ernandes</h4>
                                 <p class="pmat">Conheça mais sobre Venom, famoso personagem da Marvel</p>
-                                <button onclick="window.location.href='venom.html';" type="button" class="btn btn-primary buttonnoticia">Saiba mais</button>
+                                <button onclick="window.location.href='materia-venom.php';" type="button" class="btn btn-primary buttonnoticia">Saiba mais</button>
                             </section>
                         </div>
                     </div>

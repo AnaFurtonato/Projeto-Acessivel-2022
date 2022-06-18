@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Politica de Privacidade</title>
 </head>
+
 <body>
 
     <?php include 'header.php'; ?>

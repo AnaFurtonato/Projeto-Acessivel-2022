@@ -14,8 +14,15 @@
 
 <body>
 
+<div class="BotaoConteudoPrincipal">
+        <button class="btn btn-dark col-12 col-sm-12 col-md-12" onclick="window.location.href='materia-Arqueiro.php#Arqueiro';" >Ir
+            Direto para O conteúdo Principal</button>
+    </div>
+    
+    <?php include 'header.php'; ?>
+
     <header>
-        <img src="images/art-venom-venom.jpg" class="w-100" alt="imagme do pernsonagem venom com fundo da imagem em um degradê azul">
+        <img src="images/art-venom-venom.jpg" class="w-100" alt="imagem do pernsonagem venom com fundo da imagem em um degradê azul">
     </header>
 
     <div class="container-fluid">
@@ -138,10 +145,10 @@
                         <div class="col-xs-10 col-sm-12 col-md-4 col-lg-4">
                             <section class="card">
                                 <img src="images/venomhq.jpg" class="imgnoticia" alt="Imagem de venom sentado em um trono de ossos dando um sorriso">
-                                <h5 class="h5noticia">Como Venom foi Para o Multiverso?</h5>
+                                <h5 class="h5noticia">VocÊ sabe quem são os Maiores inimigos de Venom?</h5>
                                 <h6 class="h7noticia">Editor: Állysson Ernandes</h6>
-                                <p class="textonoticia">Veja o motivo de Venom ter aparecido no último filme do Homem Aranha</p>
-                                <a href="#" class="botaonoticia">Ler Mais</a>
+                                <p class="textonoticia">Veja quem são os principais rivais do Anti-Héroi</p>
+                                <a href="materia-venom.php" class="botaonoticia">Ler Mais</a>
                             </section>
                         </div>
 
@@ -164,7 +171,7 @@
                                 <h6 class="h7noticia">Autor: Állysson Ernandes</h6>
                                 <p class="textonoticia">Um breve resumo de como o Doninha foi criado e por quem foi interpretado no filme "Esquadão
                                     Suícida."</p>
-                                <a href="#" class="botaonoticia">Ler Mais</a>
+                                <a href="materia-doninha.php" class="botaonoticia">Ler Mais</a>
                             </section>
                         </div>
                         
@@ -181,7 +188,7 @@
                         <img src="images/Per-groot.png" class="img-fluid imgoutrosPersonagemMarvel"
                             alt="Imagem do persnogem Groot quando Bebê, com a luva de Thanos dourada com as joias do infinito">
                         <div>
-                            <a class="botaonoticiaHome" href="#">Ler Mais</a>
+                            <a class="BotaoPersonagemMarvel" href="#">Ler Mais</a>
                         </div>
                     </div>
 
@@ -190,7 +197,7 @@
                         <img src="images/Per-Doninha.png" class="img-fluid imgoutrosPersonagemMarvel"
                             alt="Imagem do doninha com uma bandeira enorme dos Estados Unidos atrás dele">
                         <div>
-                            <a class="BotaoPersonagemMarvel" href="doninha.html">Ler Mais</a>
+                            <a class="BotaoPersonagemMarvel" href="doninha.php">Ler Mais</a>
                         </div>
                     </div>
 
@@ -212,6 +219,8 @@
                 </footer>
             </div>
     </div>
+
+    <?php include 'footer.php'; ?>
 
 
 </body>
