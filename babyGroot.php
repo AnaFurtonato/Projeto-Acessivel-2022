@@ -13,7 +13,7 @@
 <body>
 
     <div class="BotaoConteudoPrincipal">
-        <button onclick="window.location.href='superchoque.html#topo';" class="btn btn-dark col-12 col-sm-12 col-md-12">Ir
+        <button onclick="window.location.href='babyGroot.php#topo';" class="btn btn-dark col-12 col-sm-12 col-md-12">Ir
             Direto para O conteúdo Principal</button>
     </div>
 
@@ -101,7 +101,7 @@
                             <img class="pb-5 col-6 col-md-6 col-xl-6 imagemPersonagemDC" src="images/Per-pantera.png"
                                 alt="Imagem do personagem Venom com metade de sua face, e a outra metade com a face de seu hospedeiro">
                             <p class="col-md-12">Conheça a história de T'Challa, príncipe do reino de Wakanda, que perde o seu pai e viaja para os Estados Unidos, onde tem contato com os Vingadores.... </p>
-                            <button class="botaonoticiaDC">Clique aqui</button>
+                            <button onclick="window.location.href='pantera.php'" class="botaonoticiaDC">Clique aqui</button>
                         </Section>
 
                         <Section class="pb-5 col-md-6 col-lg-6">
@@ -109,7 +109,7 @@
                             <img class="col-6 col-lx-6 pb-5 imagemPersonagemDC" src="images/Per-Doninha.png"
                                 alt="Imagem do persnogem Loki com sua roupa verde, com enfeites na cabeça cor de ouro e com um enorme sorriso diabólico">
                             <p class="col-md-12">Nos quadrinhos, Doninha, cujo nome verdadeiro é John Monroe, é na verdade um ser humano que veste uma fantasia do mamífero homônimo para cometer seus crimes....</p>
-                            <button onclick="window.location.href='marvel.html'" class="botaonoticiaDC">Clique
+                            <button onclick="window.location.href='doninha.php'" class="botaonoticiaDC">Clique
                                 aqui</button>
                         </Section>
                     </div>
@@ -132,7 +132,7 @@
                         <h6>Autor: Nayara Nunes</h6>
                         <p>Baby Groot já foi interpretado por vários atores. Dentre eles está o ator Vin Diesel...
                         </p>
-                        <button class="botaonoticiaDC">Clique aqui</button>
+                        <button onclick="window.location.href='materia-Groot.php'" class="botaonoticiaDC">Clique aqui</button>
                     </div>
 
                     <div class="pb-5 col-md-6 float-sm-end col-lg-6 col-xl-12">
@@ -142,7 +142,7 @@
                         <h6>Autor: Júlio Gabriel</h6>
                         <p>O Super Choque(Static Shock - em inglês), foi criado pelo próprios fundadores da editora Milestone Comics..
                         </p>
-                        <button onclick="window.location='#'" class="botaonoticiaDC">Clique aqui</button>
+                        <button onclick="window.location='materia-superchoque.php'" class="botaonoticiaDC">Clique aqui</button>
                     </div>
                 </div>
 
@@ -152,7 +152,7 @@
 
 
             <footer class="BotaoVoltarAoTopo row">
-                <button onclick="window.location.href='superchoque.html#topo';"
+                <button onclick="window.location.href='babyGroot.php#topo#topo';"
                     class="col-5 btn btn-dark justify-content-center">Voltar ao Topo</button>
             </footer>
         </div>

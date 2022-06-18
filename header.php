@@ -17,9 +17,9 @@
     <Div class="container-fluid row">
 
 
-        <div class="col-12 col-sm-2 col-md-3 col-lg-3">
+        <div class="pt-sm-4 pt-md-4 pt-lg-3 col-12 col-sm-2 col-md-3 col-lg-3">
             <Button onclick="window.location.href='index.php';" class="col-12 buttonLogoHeader">
-                <img src="images/logo.png" alt="logo">
+                <img class="col-sm-12" src="images/logo.png" alt="logo">
             </Button>
         </div>
 

@@ -15,7 +15,7 @@
 <body>
 
 <div class="BotaoConteudoPrincipal">
-        <button class="btn btn-dark col-12 col-sm-12 col-md-12" onclick="window.location.href='materia-Arqueiro.php#Arqueiro';" >Ir
+        <button class="btn btn-dark col-12 col-sm-12 col-md-12" onclick="window.location.href='Venom.php#Arqueiro';" >Ir
             Direto para O conteúdo Principal</button>
     </div>
     
@@ -159,7 +159,7 @@
                                 <h6 class="h7noticia">Editor: Ana Clara</h6>
                                 <p class="textonoticia">Loki, o vilão que tem sua própria série no Disney+, é um dos
                                     personagens mais poderosos do Universo Cinematográfico Marvel (MCU). </p>
-                                <a href="#" class="botaonoticia">Ler Mais</a>
+                                <a href="materia-loki3.php" class="botaonoticia">Ler Mais</a>
                             </section>
                         </div>
 
@@ -188,7 +188,7 @@
                         <img src="images/Per-groot.png" class="img-fluid imgoutrosPersonagemMarvel"
                             alt="Imagem do persnogem Groot quando Bebê, com a luva de Thanos dourada com as joias do infinito">
                         <div>
-                            <a class="BotaoPersonagemMarvel" href="#">Ler Mais</a>
+                            <a class="BotaoPersonagemMarvel" href="babyGroot.php">Ler Mais</a>
                         </div>
                     </div>
 
@@ -206,7 +206,7 @@
                         <img src="images/Per-pantera.png" class="img-fluid imgoutrosPersonagemMarvel"
                             alt="Imagem do Pantera negra com seu uniforme preto com traços de pantera sentado em seu trono">
                         <div>
-                            <a class="BotaoPersonagemMarvel" href="#">Ler Mais</a>
+                            <a class="BotaoPersonagemMarvel" href="pantera.php">Ler Mais</a>
                         </div>
                     </div>
 
@@ -214,7 +214,7 @@
                 </aside>
 
                 <footer class="BotaoVoltarAoTopo row">
-                    <button onclick="window.location.href='venom.html#topo';"
+                    <button onclick="window.location.href='Venom.php#topo';"
                         class="col-5 btn btn-dark justify-content-center">Voltar ao Topo</button>
                 </footer>
             </div>

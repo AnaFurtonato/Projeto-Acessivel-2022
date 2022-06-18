@@ -17,6 +17,8 @@
             Direto para O conteúdo Principal</button>
     </div>
 
+    <?php include 'header.php'; ?>
+
     <Header class="headerDoninha row">
         <img class="img-fluid" src="images/superchoquebanner.jpg"
             alt="Imagem do personagem Super Choque voando com seus raios e a o fundo está a cidade">
@@ -99,8 +101,8 @@
                             <h6 class="invisible">Venom</h6> <!-- para ocultar o texto do titulo e não acusar "warning" no validador w3c-->
                             <img class="pb-5 col-6 col-md-6 col-xl-6 imagemPersonagemDC" src="images/Per-venom.png"
                                 alt="Imagem do personagem Venom com metade de sua face, e a outra metade com a face de seu hospedeiro">
-                            <p class="col-md-12">Conheça mais sobre Venon, famoso personagem da Marvel</p>
-                            <button class="botaonoticiaDC">Clique aqui</button>
+                            <p class="col-md-12">Conheça mais sobre Venom, famoso personagem da Marvel</p>
+                            <button onclick="window.location.href='Venom.php'" class="botaonoticiaDC">Clique aqui</button>
                         </Section>
 
                         <Section class="pb-5 col-md-6 col-lg-6">
@@ -108,7 +110,7 @@
                             <img class="col-6 col-lx-6 pb-5 imagemPersonagemDC" src="images/Per-Loki.png"
                                 alt="Imagem do persnogem Loki com sua roupa verde, com enfeites na cabeça cor de ouro e com um enorme sorriso diabólico">
                             <p class="col-md-12">Conheça mais sobre Loki, famoso personagem da Marvel</p>
-                            <button onclick="window.location.href='marvel.html'" class="botaonoticiaDC">Clique
+                            <button onclick="window.location.href='Loki.php'" class="botaonoticiaDC">Clique
                                 aqui</button>
                         </Section>
                     </div>
@@ -132,7 +134,7 @@
                         <p>Um breve resumo de como o Doninha foi criado e por quem foi interpretado no filme "Esquadão
                             Suícida."
                         </p>
-                        <button class="botaonoticiaDC">Clique aqui</button>
+                        <button onclick="window.location.href='materia-doninha.php'" class="botaonoticiaDC">Clique aqui</button>
                     </div>
 
                     <div class="pb-5 col-md-6 float-sm-end col-lg-6 col-xl-12">
@@ -143,7 +145,7 @@
                         <p>Loki, o vilão que tem sua própria série no Disney+, é um dos personagens mais poderosos do
                             Universo Cinematográfico Marvel (MCU).
                         </p>
-                        <button onclick="window.location='#'" class="botaonoticiaDC">Clique aqui</button>
+                        <button onclick="window.location='materia-loki3.php'" class="botaonoticiaDC">Clique aqui</button>
                     </div>
                 </div>
 
@@ -159,6 +161,8 @@
         </div>
 
     </div>
+
+    <?php include 'footer.php'; ?>
 
 </body>
 

@@ -121,7 +121,7 @@
                             <img class="pb-5 col-6 col-md-6 col-xl-6 imagemPersonagemDC" src="images/Per-venom.png"
                                 alt="Imagem do personagem Venom com metade de sua face, e a outra metade com a face de seu hospedeiro">
                             <p class="col-md-12">Conheça mais sobre Venon, famoso personagem da Marvel</p>
-                            <button onclick="window.location.href='Venom.html'"  class="botaonoticiaDC">Clique aqui</button>
+                            <button onclick="window.location.href='Venom.php'"  class="botaonoticiaDC">Clique aqui</button>
                         </Section>
 
                         <Section class="pb-5 col-md-6 col-lg-6">
@@ -129,7 +129,7 @@
                             <img class="col-6 col-lx-6 pb-5 imagemPersonagemDC" src="images/Per-Loki.png"
                                 alt="Imagem do persnogem Loki com sua roupa verde, com enfeites na cabeça cor de ouro e com um enorme sorriso diabólico">
                             <p class="col-md-12">Conheça mais sobre Loki, famoso personagem da Marvel</p>
-                            <button onclick="window.location.href='marvel.html'" class="botaonoticiaDC">Clique
+                            <button onclick="window.location.href='loki.php'" class="botaonoticiaDC">Clique
                                 aqui</button>
                         </Section>
                     </div>
@@ -153,7 +153,7 @@
                         <p>Um breve resumo de como o Doninha foi criado e por quem foi interpretado no filme "Esquadão
                             Suícida."
                         </p>
-                        <button onclick="window.location='materia-doninha.html'" class="botaonoticiaDC">Clique aqui</button>
+                        <button onclick="window.location='materia-doninha.php'" class="botaonoticiaDC">Clique aqui</button>
                     </div>
 
                     <div class="pb-5 col-md-6 float-sm-end col-lg-6 col-xl-12">
@@ -164,7 +164,7 @@
                         <p>Loki, o vilão que tem sua própria série no Disney+, é um dos personagens mais poderosos do
                             Universo Cinematográfico Marvel (MCU).
                         </p>
-                        <button onclick="window.location='#'" class="botaonoticiaDC">Clique aqui</button>
+                        <button onclick="window.location='materia-loki3.php'" class="botaonoticiaDC">Clique aqui</button>
                     </div>
                 </div>
 

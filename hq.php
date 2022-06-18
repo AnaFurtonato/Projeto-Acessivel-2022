@@ -11,12 +11,12 @@
 
     <body>
         <div class="BotaoConteudoPrincipal">
-            <button onclick="window.location.href='hq.html#topo';" class="btn btn-dark col-12 col-sm-12 col-md-12">Ir
+            <button onclick="window.location.href='hq.php#topo';" class="btn btn-dark col-12 col-sm-12 col-md-12">Ir
                 Direto para o conteúdo Principal</button>
         </div>
 
         <header>                   
-            <img src="images/hqbanner.jpg" class="w-100" id="img-header" alt ="">                    
+            <img src="images/hqbanner.jpg" class="w-100" id="img-header" alt ="banner com o nome Marvel e DC United com degradê entre preto e azul">                    
         </header>
         
         <div class="container-fluid">
@@ -106,7 +106,7 @@
         </div>    
 
         <footer class="BotaoVoltarAoTopo row">
-            <button onclick="window.location.href='hq.html#topo';"
+            <button onclick="window.location.href='hq.php#topo';"
                 class="col-5 btn btn-dark justify-content-center">Voltar ao Topo</button>
         </footer>
 

@@ -106,8 +106,8 @@
 
                             <ul>
                                 <li><a href="comiccon.php">Comic-Con</a></li>
-                                <li><a href="">Materia Super Choque</a></li>
-                                <li><a href="">Materia Pantera Negra</a></li>
+                                <li><a href="materia-superchoque.php">Materia Super Choque</a></li>
+                                <li><a href="materia-pantera.php">Materia Pantera Negra</a></li>
                                 <li><a href="superchoque.php">Super Choque</a></li>
                                 <li><a href="pantera.php">Pantera Negra</a></li>
                                 <li><a href="videos.php">Vídeos</a></li>
@@ -130,9 +130,9 @@
 
                             <ul>
                                 <li><a href="noticia.php">Noticias</a></li>
-                                <li><a href="">Groot</a></li>
-                                <li><a href="">Arqueiro-Verde</a></li>
-                                <li><a href="">Materia Groot</a></li>
+                                <li><a href="babyGroot.php">Groot</a></li>
+                                <li><a href="arqueiroverde.php">Arqueiro-Verde</a></li>
+                                <li><a href="materia-Groot.php">Materia Groot</a></li>
                                 <li><a href="materia-Arqueiro.php">Materia Arqueiro-Verde</a></li>
 
 

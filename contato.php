@@ -13,7 +13,7 @@
 </head>
 <body>
 
-    <div class="pb-3"><?php include 'header.php'; ?></div>
+    <?php include 'header.php'; ?>
 
 
     <div class="container">

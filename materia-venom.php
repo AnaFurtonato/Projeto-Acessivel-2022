@@ -21,6 +21,7 @@
             Direto para O conteúdo Principal</button>
     </div>
 
+    <?php include 'header.php'; ?>
 
     <header class="col-sm-12 col-md-12 col-lg-12">
         <img class="img-fluid w-100" src="images/art-venom-venom.jpg"
@@ -81,7 +82,7 @@
                                     <h3 class="hmat">Batman</h3>
                                     <h5 class="hmat1">Autora: Ana Clara</h5>
                                     <p class="pmat">Conheça mais sobre o Batman, protetor de Gotham City</p>
-                                    <a href="#" class="btn btn-primary buttonm">Saiba mais</a>
+                                    <a href="materia-batman.php" class="btn btn-primary buttonm">Saiba mais</a>
                                 </section>
                             </div>
                         </div>
@@ -113,6 +114,7 @@
 
     </div>
 
+    <?php include 'footer.php'; ?>
 
 </body>
 

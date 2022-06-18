@@ -12,10 +12,11 @@
 </head>
 
 <div class="BotaoConteudoPrincipal">
-    <button onclick="window.location.href='materias.html#Arqueiro';" class="btn btn-dark col-12 col-sm-12 col-md-12">Ir
+    <button onclick="window.location.href='materia-Groot.php#Arqueiro';" class="btn btn-dark col-12 col-sm-12 col-md-12">Ir
         Direto para O conteúdo Principal</button>
 </div>
 
+<?php include 'footer.php'; ?>
 
 <header class="col-sm-12 col-md-12 col-lg-12">
     <img class="img-fluid img1" src="images/destaque1440x250.jpg"
@@ -108,7 +109,7 @@
                     </aside>
 
                     <footer class="BotaoVoltarAoTopo row">
-                        <button onclick="window.location.href='materia-Arqueiro.html#Arqueiro';"
+                        <button onclick="window.location.href='materia-Groot.php#Arqueiro';"
                             class="col-5 btn btn-dark justify-content-center">Voltar ao Topo</button>
                     </footer>
             </div>
@@ -116,6 +117,7 @@
 
     </div>
 
+    <?php include 'footer.php'; ?>
 
 </body>
 

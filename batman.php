@@ -13,9 +13,11 @@
 <body>
 
     <div class="BotaoConteudoPrincipal">
-        <button onclick="window.location.href='batman.html#topo';" class="btn btn-dark col-12 col-sm-12 col-md-12">Ir
+        <button onclick="window.location.href='batman.php#topo';" class="btn btn-dark col-12 col-sm-12 col-md-12">Ir
             Direto para O conteúdo Principal</button>
     </div>
+
+    <?php include 'header.php'; ?>
 
     <Header class="headerDoninha row">
         <img class="img-fluid" src="images/batmanbanner2.jpg"
@@ -97,7 +99,7 @@
                             <img class="pb-5 col-6 col-md-6 col-xl-6 imagemPersonagemDC" src="images/Per-Arqueiro-verde.png"
                                 alt="Arqueiro Verde dos quadrinhos com o seu arco na mão vestindo a sua roupa verde de justiceiro com uma mascara nos olhos">
                             <p class="col-md-12">Conheça mais sobre o Arqueiro Verde, justiceiro mais temido de Star City, onde o caos reina de dia e de noite </p>
-                            <button class="botaonoticiaDC">Clique aqui</button>
+                            <button onclick="window.location.href='arqueiroverde.php'" class="botaonoticiaDC">Clique aqui</button>
                         </Section>
 
                         <Section class="pb-5 col-md-6 col-lg-6">
@@ -105,7 +107,7 @@
                             <img class="col-6 col-lx-6 pb-5 imagemPersonagemDC" src="images/Per-SuperChoque.png"
                                 alt="Super Choque soltando eletricidade pela mão, com sua roupa azul e amarala voando pela cidade em uma tampa de lixo">
                             <p class="col-md-12">Conheça mais sobre o Super Choque, o heroi que salva todos da sua cidade com o poder da eletricidade em suas veias</p>
-                            <button onclick="window.location.href='marvel.html'" class="botaonoticiaDC">Clique
+                            <button onclick="window.location.href='superchoque.php'" class="botaonoticiaDC">Clique
                                 aqui</button>
                         </Section>
                     </div>
@@ -148,12 +150,14 @@
 
 
             <footer class="BotaoVoltarAoTopo row">
-                <button onclick="window.location.href='batman.html#topo';"
+                <button onclick="window.location.href='batman.php#topo';"
                     class="col-5 btn btn-dark justify-content-center">Voltar ao Topo</button>
             </footer>
         </div>
 
     </div>
+
+    <?php include "footer.php"; ?>
 
 </body>
 

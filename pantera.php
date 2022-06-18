@@ -14,12 +14,16 @@
 
 <body>
 
- <button onclick="window.location.href='pantera.php#topo';" class="col-5 btn btn-dark justify-content-center">Voltar ao Topo</button>
+ <button onclick="window.location.href='pantera.php#topo';" class="col-5 btn btn-dark justify-content-center w-100">Voltar ao Topo</button>
+
+ <?php include 'header.php'; ?>
 
     <header>
         <img src="images/panteranegrabanner.jpg" class="w-100" alt="imagem do pernsonagem Pantera Negra com fundo da imagem em um degradê azul">
 
     </header>
+
+
 
     <div class="container-fluid">
 
@@ -122,7 +126,7 @@
                                 <h5 class="h5noticia">Como Venom foi Para o Multiverso?</h5>
                                 <h6 class="h7noticia">Editor: Állysson Ernandes</h6>
                                 <p class="textonoticia">Veja o motivo de Venom ter aparecido no último filme do Homem Aranha</p>
-                                <a href="#" class="botaonoticia">Ler Mais</a>
+                                <a href="materia-venom.php" class="botaonoticia">Ler Mais</a>
                             </section>
                         </div>
 
@@ -133,7 +137,7 @@
                                 <h6 class="h7noticia">Editor: Ana Clara</h6>
                                 <p class="textonoticia">Loki, o vilão que tem sua própria série no Disney+, é um dos
                                     personagens mais poderosos do Universo Cinematográfico Marvel (MCU). </p>
-                                <a href="#" class="botaonoticia">Ler Mais</a>
+                                <a href="materia-loki3.php" class="botaonoticia">Ler Mais</a>
                             </section>
                         </div>
 
@@ -145,7 +149,7 @@
                                 <h6 class="h7noticia">Autor: Állysson Ernandes</h6>
                                 <p class="textonoticia">Um breve resumo de como o Doninha foi criado e por quem foi interpretado no filme "Esquadão
                                     Suícida."</p>
-                                <a href="#" class="botaonoticia">Ler Mais</a>
+                                <a href="materia-doninha.php" class="botaonoticia">Ler Mais</a>
                             </section>
                         </div>
                         
@@ -162,7 +166,7 @@
                         <img src="images/Per-groot.png" class="img-fluid imgoutrosPersonagemMarvel"
                             alt="Imagem do persnogem Groot quando Bebê, com a luva de Thanos dourada com as joias do infinito">
                         <div>
-                            <a class="botaonoticiaHome" href="#">Ler Mais</a>
+                            <a class="botaonoticiaHome" href="babyGroot.php">Ler Mais</a>
                         </div>
                     </div>
 
@@ -171,16 +175,16 @@
                         <img src="images/Per-Doninha.png" class="img-fluid imgoutrosPersonagemMarvel"
                             alt="Imagem do doninha com uma bandeira enorme dos Estados Unidos atrás dele">
                         <div>
-                            <a class="BotaoPersonagemMarvel" href="doninha.html">Ler Mais</a>
+                            <a class="BotaoPersonagemMarvel" href="doninha.php">Ler Mais</a>
                         </div>
                     </div>
 
 
                     <div class="outrosPersonagemMarvel pb-5">
-                        <img src="images/Per-pantera.png" class="img-fluid imgoutrosPersonagemMarvel"
-                            alt="Imagem do Pantera negra com seu uniforme preto com traços de pantera sentado em seu trono">
+                        <img src="images/Per-loki.png" class="img-fluid imgoutrosPersonagemMarvel"
+                            alt="Imagem de Loki com um sorriso de maldade">
                         <div>
-                            <a class="BotaoPersonagemMarvel" href="#">Ler Mais</a>
+                            <a class="BotaoPersonagemMarvel" href="loki.php">Ler Mais</a>
                         </div>
                     </div>
 
@@ -194,6 +198,7 @@
             </div>
     </div>
 
+    <?php include 'footer.php'; ?>
 
 </body>
 

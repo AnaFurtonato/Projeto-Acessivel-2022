@@ -21,6 +21,7 @@
             Direto para o conteúdo Principal</button>
     </div>
 
+    <?php include 'header.php'; ?>
 
     <header class="col-sm-12 col-md-12 col-lg-12">
         <img class="img-fluid w-100" src="images/Loki03.jpg"
@@ -104,6 +105,7 @@
 
     </div>
 
+    <?php include 'footer.php'; ?>
 
 </body>
 

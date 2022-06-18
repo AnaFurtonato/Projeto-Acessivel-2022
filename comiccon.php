@@ -12,7 +12,7 @@
 
 <body>
 <div class="container-fluid">
-    <button onclick="window.location.href='comiccon.html#inicc';"
+    <button onclick="window.location.href='comiccon.php#inicc';"
     class="btnini btn btn-dark col-12 col-sm-12 col-md-12">Ir Direto para O
     conteúdo Principal</button>
 
@@ -179,7 +179,7 @@
         </aside>
 
         <footer class="footervid">
-            <button onclick="window.location.href='comiccon.html#inicc';"
+            <button onclick="window.location.href='comiccon.php#inicc';"
                 class="btnfoot btn btn-dark col-12 col-sm-12 col-md-12">Voltar ao
                 Topo</button>
         </footer>

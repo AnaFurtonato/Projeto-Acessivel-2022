@@ -17,9 +17,11 @@
 
     <div class="BotaoConteudoPrincipal">
         <button class="btn btn-dark col-12 col-sm-12 col-md-12"
-            onclick="window.location.href='materia-loki.php#topo';">Ir
+            onclick="window.location.href='materia-loki3.php#topo';">Ir
             Direto para o conteúdo Principal</button>
     </div>
+    
+    <?php include 'header.php'; ?>
 
 
     <header class="col-sm-12 col-md-12 col-lg-12">
@@ -100,7 +102,7 @@
                 </aside>
 
                 <footer class="BotaoVoltarAoTopo row pt-5">
-                    <button onclick="window.location.href='materia-loki.php#topo';"
+                    <button onclick="window.location.href='materia-loki3.php#topo';"
                         class="col-5 btn btn-dark justify-content-center">Voltar ao Topo</button>
                 </footer>
             </div>
@@ -108,6 +110,7 @@
 
     </div>
 
+    <?php include 'footer.php'; ?>
 
 </body>
 

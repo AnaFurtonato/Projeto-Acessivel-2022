@@ -32,7 +32,7 @@
         </div>
 
         <div class="col-6 col-sm-3 p-4">
-            <button onclick="window.location.href='hq.php';" class="btn btn-dark col-12">HQ's </button>
+            <button onclick="window.location.href='noticia.php';" class="btn btn-dark col-12">Notícias</button>
         </div>
 
     </Div>

@@ -13,9 +13,11 @@
 <body>
 
     <div class="BotaoConteudoPrincipal">
-        <button onclick="window.location.href='superchoque.html#topo';" class="btn btn-dark col-12 col-sm-12 col-md-12">Ir
+        <button onclick="window.location.href='arqueiroverde.php#topo';" class="btn btn-dark col-12 col-sm-12 col-md-12">Ir
             Direto para O conteúdo Principal</button>
     </div>
+
+    <?php include 'header.php'; ?>
 
     <Header class="headerDoninha row">
         <img class="img-fluid" src="images/arqueiroverdebanner.jpg"
@@ -100,9 +102,9 @@
                         <Section class="col-12 col-md-6 col-lg-6  float-start">
                             <h6 class="invisible">Batman</h6> <!-- para ocultar o texto do titulo e não acusar "warning" no validador w3c-->
                             <img class="pb-5 col-6 col-md-6 col-xl-6 imagemPersonagemDC" src="images/Per-Batman.png"
-                                alt="Imagem do personagem Venom com metade de sua face, e a outra metade com a face de seu hospedeiro">
+                                alt="Imagem do personagem batman">
                             <p class="col-md-12">Após dois anos espreitando as ruas como Batman, Bruce Wayne se encontra nas profundezas mais sombrias de Gotham City. Com poucos aliados confiáveis...</p>
-                            <button class="botaonoticiaDC">Clique aqui</button>
+                            <button onclick="window.location.href='batman.php'" class="botaonoticiaDC">Clique aqui</button>
                         </Section>
 
                         <Section class="pb-5 col-md-6 col-lg-6">
@@ -110,7 +112,7 @@
                             <img class="col-6 col-lx-6 pb-5 imagemPersonagemDC" src="images/Per-groot.png"
                                 alt="Imagem do personagem Baby Groot">
                             <p class="col-md-12">Groot é um personagem fictício que aparece nas histórias em quadrinhos publicadas pela Marvel Comics. Sua primeira versão foi criada por Stan Lee, Jack Kirby e Dick Ayers....</p>
-                            <button onclick="window.location.href='marvel.html'" class="botaonoticiaDC">Clique
+                            <button onclick="window.location.href='babyGroot.php'" class="botaonoticiaDC">Clique
                                 aqui</button>
                         </Section>
                     </div>
@@ -134,7 +136,7 @@
                         <p>Hoje o ator Stephen Amell, aos seus 41 anos, enquanto espera a notícia
                             oficial da segunda temporada..."
                         </p>
-                        <button class="botaonoticiaDC">Clique aqui</button>
+                        <button onclick="window.location.href='materia-Arqueiro.php'" class="botaonoticiaDC">Clique aqui</button>
                     </div>
 
                     <div class="pb-5 col-md-6 float-sm-end col-lg-6 col-xl-12">
@@ -145,7 +147,7 @@
                         <p>Loki, o vilão que tem sua própria série no Disney+, é um dos personagens mais poderosos do
                             Universo Cinematográfico Marvel (MCU).
                         </p>
-                        <button onclick="window.location='#'" class="botaonoticiaDC">Clique aqui</button>
+                        <button onclick="window.location='materia-loki3.php'" class="botaonoticiaDC">Clique aqui</button>
                     </div>
                 </div>
 
@@ -155,12 +157,14 @@
 
 
             <footer class="BotaoVoltarAoTopo row">
-                <button onclick="window.location.href='superchoque.html#topo';"
+                <button onclick="window.location.href='arqueiroverde.php#topo';"
                     class="col-5 btn btn-dark justify-content-center">Voltar ao Topo</button>
             </footer>
         </div>
 
     </div>
+
+    <?php include 'footer.php'; ?>
 
 </body>
 

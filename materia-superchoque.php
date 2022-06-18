@@ -19,6 +19,8 @@
         <button class="btn btn-dark col-12 col-sm-12 col-md-12" onclick="window.location.href='materia-superchoque.php#Arqueiro';" >Ir
             Direto para O conteúdo Principal</button>
     </div>
+
+    <?php include 'header.php'; ?>
     
     
     <header class="col-sm-12 col-md-12 col-lg-12">
@@ -74,7 +76,7 @@
                                     <h3 class="hmat">Batman</h3>
                                     <h5 class="hmat1">Autora: Ana Clara</h5>
                                     <p class="pmat">Conheça mais sobre o Batman, protetor de Gotham City</p>
-                                    <a href="#" class="btn btn-primary buttonm">Saiba mais</a>
+                                    <a href="materia-batman.php" class="btn btn-primary buttonm">Saiba mais</a>
                                 </section>
                             </div>
                         </div>
@@ -86,7 +88,7 @@
                                     <h3 class="hmat">Doninha</h3>
                                     <h5 class="hmat1">Autor: Allysson Ernandes</h5>
                                     <p class="pmat">Conheça mais sobre O Doninha, personagem da DC Comics</p>
-                                    <a href="#" class="btn btn-primary buttonm">Saiba mais</a>
+                                    <a href="materia-doninha.php" class="btn btn-primary buttonm">Saiba mais</a>
                                 </section>
                             </div>
                         </div>
@@ -96,13 +98,15 @@
                     </aside>
 
                     <footer class="BotaoVoltarAoTopo row pt-5">
-                        <button onclick="window.location.href='materia-superchoque.html#Arqueiro';"
+                        <button onclick="window.location.href='materia-superchoque.php#Arqueiro';"
                             class="col-5 btn btn-dark justify-content-center">Voltar ao Topo</button>
                     </footer>
             </div>
         </main>
 
     </div>
+
+    <?php include 'footer.php'; ?>
 
 
 </body>

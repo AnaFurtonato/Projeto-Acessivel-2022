@@ -59,7 +59,7 @@
                                 <h2 class="hmat">Batman</h2>
                                 <h4 class="hmat1">Autor: Ana Clara</h4>
                                 <p class="pmat">Conheça mais sobre o Batman, protetor de Gotham City</p>
-                                <button type="button" class="btn btn-primary buttonnoticia" onclick="window.location.href='';">Saiba mais</button>
+                                <button type="button" class="btn btn-primary buttonnoticia" onclick="window.location.href='materia-batman.php';">Saiba mais</button>
                             </section>
                         </div>
                     </div>
@@ -98,7 +98,7 @@
                                 <h2 class="hmat">Baby Groot</h2>
                                 <h4 class="hmat1">Autor: Nayara Nunes</h4>
                                 <p class="pmat">Conheça mais sobre do Baby Groot e quem é o ator por trás dele.</p>
-                                <button type="button" class="btn btn-primary buttonnoticia" onclick="window.location.href='';">Saiba mais</button>
+                                <button type="button" class="btn btn-primary buttonnoticia" onclick="window.location.href='materia-Groot.php';">Saiba mais</button>
                             </section>
                         </div>
                     </div>

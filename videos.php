@@ -12,12 +12,12 @@
 
 <body class="bodyvid">
 
+<?php include 'header.php'; ?>
+
 <div class="container-fluid">
 
-    <?php include 'header.php'; ?>
-
     <header class="header_videos">
-        <button onclick="window.location.href='videos.html#inicio';" class=" btnini btn btn-primary col-12 col-sm-12 col-md-12">Ir Direto para O conteúdo Principal</button>
+        <button onclick="window.location.href='videos.php#inicio';" class=" w-100 btnini btn btn-primary col-12 col-sm-12 col-md-12">Ir Direto para O conteúdo Principal</button>
     </header>
 
     <article class = "artvideos row col-sm-12 col-md-12 col-lg-12"> 
@@ -58,7 +58,7 @@
 
     </aside>
     <footer class="footervid">
-        <button  onclick="window.location.href='videos.html#inicio';" class="btnfoot btn btn-primary" >Voltar ao Topo</button>
+        <button  onclick="window.location.href='videos.php#inicio';" class="btnfoot btn btn-primary" >Voltar ao Topo</button>
     </footer>
     
     <?php include 'footer.php'; ?> 
