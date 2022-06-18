@@ -19,12 +19,14 @@
 
     <main>
 
-        <div class="w-100">
-            <h2 class=" h2sobre">A nossa Equipe</h2>
-        </div>
+      
 
 
             <article>
+
+                <div class="w-100">
+                    <h2 class=" h2sobre">A nossa Equipe</h2>
+                </div>
 
 
                 <Div class="row">
