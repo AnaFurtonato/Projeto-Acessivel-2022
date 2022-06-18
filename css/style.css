@@ -596,6 +596,16 @@ a{
     margin: 10px 20px;
 }
 
+.pomat {
+    width: 60%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.postmat {
+    color: #808080;
+    text-align: center;
+}
 
 .buttonm {
     text-align: center;
