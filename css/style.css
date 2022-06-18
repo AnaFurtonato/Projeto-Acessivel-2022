@@ -919,12 +919,6 @@ html {
     text-align: center;
 }
 
-.card {
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 0.1em #808080;
-}
-
 .card-img-top {
     display: block;
     padding: auto;
