@@ -8,10 +8,6 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Politica de Privacidade</title>
 </head>
-    <header>
-        
-    </header>
- 
 
 <body>
 

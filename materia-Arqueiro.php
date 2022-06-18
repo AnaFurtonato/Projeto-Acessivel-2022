@@ -16,13 +16,14 @@
 
 
     <div class="BotaoConteudoPrincipal">
-        <button class="btn btn-dark col-12 col-sm-12 col-md-12" onclick="window.location.href='materia-Arqueiro.html#Arqueiro';" >Ir
+        <button class="btn btn-dark col-12 col-sm-12 col-md-12" onclick="window.location.href='materia-Arqueiro.php#Arqueiro';" >Ir
             Direto para O conteúdo Principal</button>
     </div>
     
+    <?php include 'header.php'; ?>
     
     <header class="col-sm-12 col-md-12 col-lg-12">
-        <img class="img-fluid" src="images/arqueiroPrincipal.jpg" 
+        <img class="img-fluid w-100" src="images/arqueiroPrincipal.jpg" 
             alt="imagem do personagem arqueiro verde com seu uniforme e seu arco e flecha">
     </header>
     
@@ -78,7 +79,7 @@
                                     <h3 class="hmat">Batman</h3>
                                     <h5 class="hmat1">Autora: Ana Clara</h5>
                                     <p class="pmat">Conheça mais sobre o Batman, protetor de Gotham City</p>
-                                    <a href="#" class="btn btn-primary buttonm">Saiba mais</a>
+                                    <a href="batman.php" class="btn btn-primary buttonm">Saiba mais</a>
                                 </section>
                             </div>
                         </div>
@@ -87,10 +88,12 @@
                             <div class="card ">
                                 <section class="sec3">
                                     <img class="card-img-top" src="images/Doninha296x176.jpg" alt="Personagem Doninha, com sua versão animada a esqueda e sua versão live action a direita.">
-                                    <h3 class="hmat">Doninha</h3>
+                                    <h3 class="hmat">Doninha interpretado por Sean Gunn</h3>
                                     <h5 class="hmat1">Autor: Allysson Ernandes</h5>
-                                    <p class="pmat">Conheça mais sobre O Doninha, personagem da DC Comics</p>
-                                    <a href="#" class="btn btn-primary buttonm">Saiba mais</a>
+                                    <p class="pmat">Um breve resumo de como o Doninha foi criado e por quem foi interpretado no filme
+                                    "Esquadão
+                                    Suícida."</p>
+                                    <a href="materia-doninha.php" class="btn btn-primary buttonm">Saiba mais</a>
                                 </section>
                             </div>
                         </div>
@@ -100,7 +103,7 @@
                     </aside>
 
                     <footer class="BotaoVoltarAoTopo row pt-5">
-                        <button onclick="window.location.href='materia-Arqueiro.html#Arqueiro';"
+                        <button onclick="window.location.href='materia-Arqueiro.php#Arqueiro';"
                             class="col-5 btn btn-dark justify-content-center">Voltar ao Topo</button>
                     </footer>
             </div>
@@ -108,6 +111,7 @@
 
     </div>
 
+    <?php include 'footer.php'; ?>
 
 </body>
 

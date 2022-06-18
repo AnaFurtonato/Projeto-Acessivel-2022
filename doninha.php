@@ -12,10 +12,14 @@
 
 <body>
 
+
+
     <div class="BotaoConteudoPrincipal">
-        <button onclick="window.location.href='doninha.html#topo';" class="btn btn-dark col-12 col-sm-12 col-md-12">Ir
+        <button onclick="window.location.href='doninha.php#topo';" class="btn btn-dark col-12 col-sm-12 col-md-12">Ir
             Direto para O conteúdo Principal</button>
     </div>
+
+    <?php include 'header.php'; ?>
 
     <Header class="headerDoninha row">
         <img class="img-fluid" src="images/ImagemPrincipalDoninha.png"
@@ -117,7 +121,7 @@
                             <img class="pb-5 col-6 col-md-6 col-xl-6 imagemPersonagemDC" src="images/Per-venom.png"
                                 alt="Imagem do personagem Venom com metade de sua face, e a outra metade com a face de seu hospedeiro">
                             <p class="col-md-12">Conheça mais sobre Venon, famoso personagem da Marvel</p>
-                            <button class="botaonoticiaDC">Clique aqui</button>
+                            <button onclick="window.location.href='Venom.html'"  class="botaonoticiaDC">Clique aqui</button>
                         </Section>
 
                         <Section class="pb-5 col-md-6 col-lg-6">
@@ -149,7 +153,7 @@
                         <p>Um breve resumo de como o Doninha foi criado e por quem foi interpretado no filme "Esquadão
                             Suícida."
                         </p>
-                        <button class="botaonoticiaDC">Clique aqui</button>
+                        <button onclick="window.location='materia-doninha.html'" class="botaonoticiaDC">Clique aqui</button>
                     </div>
 
                     <div class="pb-5 col-md-6 float-sm-end col-lg-6 col-xl-12">
@@ -170,12 +174,14 @@
 
 
             <footer class="BotaoVoltarAoTopo row">
-                <button onclick="window.location.href='doninha.html#topo';"
+                <button onclick="window.location.href='doninha.php#topo';"
                     class="col-5 btn btn-dark justify-content-center">Voltar ao Topo</button>
             </footer>
         </div>
 
     </div>
+
+    <?php include 'footer.php'; ?>
 
 </body>
 
