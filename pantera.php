@@ -18,6 +18,7 @@
 
     <header>
         <img src="images/panteranegrabanner.jpg" class="w-100" alt="imagem do pernsonagem Pantera Negra com fundo da imagem em um degradê azul">
+
     </header>
 
     <div class="container-fluid">
