@@ -10,29 +10,36 @@
     <title>footer</title>
 </head>
 
-<body class="container">
+<body>
 
+<nav>
+
+<div class="container-fluid">
 
     <Div class="mr-5 row">
         <div class="col-6 col-sm-3 p-4">
-            <Button onclick="window.location.href='#';" class="btn btn-dark col-12">Home</Button>
+            <Button onclick="window.location.href='index.html';" class="btn btn-dark col-12">Home</Button>
         </div>
 
         <div class="col-6 col-sm-3 p-4">
-            <button onclick="window.location.href='#';" class="btn btn-dark col-12">Quem Somos</button>
-
-        </div>
-
-        <div class="col-6 col-sm-3 p-4">
-            <button onclick="window.location.href='#';" class="btn btn-dark col-12">Contato</button>
+            <button onclick="window.location.href='SobreNos.html';" class="btn btn-dark col-12">Quem Somos</button>
 
         </div>
 
         <div class="col-6 col-sm-3 p-4">
-            <button onclick="window.location.href='#';" class="btn btn-dark col-12">HQ's </button>
+            <button onclick="window.location.href='contato.html';" class="btn btn-dark col-12">Contato</button>
+
+        </div>
+
+        <div class="col-6 col-sm-3 p-4">
+            <button onclick="window.location.href='hq.html';" class="btn btn-dark col-12">HQ's </button>
         </div>
 
     </Div>
+
+    </div>
+
+    </nav>
 
     <p class="pt-5 copy"><small>&copy; Copyright - Todos os direitos reservados - Os Ursinhos Fofos</small></p>
 

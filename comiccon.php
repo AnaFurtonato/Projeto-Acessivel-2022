@@ -8,8 +8,6 @@
     <title>Comic-con</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="">
-    <link rel="stylesheet" type="text/css" href="">
 </head>
 
 <body>
@@ -17,6 +15,9 @@
     <button onclick="window.location.href='comiccon.html#inicc';"
     class="btnini btn btn-dark col-12 col-sm-12 col-md-12">Ir Direto para O
     conteúdo Principal</button>
+
+    <?php include 'header.php'; ?>
+
     <header class="headercc col-sm-12 col-md-12 col-lg-12">
         <img class="headcc img-fluid w-100" src="images/foto-de-capa-ccxp.png" alt="Logo do evento Comic Con Experience, ao centro a sigla CCXP, com a frase viva o épico">
     </header>
@@ -182,6 +183,8 @@
                 class="btnfoot btn btn-dark col-12 col-sm-12 col-md-12">Voltar ao
                 Topo</button>
         </footer>
+
+        <?php include 'footer.php'; ?> 
 
     </div>
 

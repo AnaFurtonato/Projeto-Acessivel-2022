@@ -7,6 +7,11 @@ html {
     text-align: justify;
 }
 
+body{
+    font-family: "inter", sans-serif;
+}
+
+
 .BotaoVoltarAoTopo {
     float: left;
     margin-left: 28%;
@@ -123,7 +128,7 @@ html {
 .navHeader {
     background-color: #2c66eb;
     color: #fff;
-    border-radius: 10px;
+    width: 100%;
 }
 
 .buttonLogoHeader {
@@ -542,20 +547,8 @@ html {
 
 /*tela materia*/
 
-.bomat {
-    width: 100%;
-}
 
 
-#img1 {
-    width: 100%;
-}
-
-.navmat {
-    text-align: center;
-    margin: 20px 80px 20px 80px;
-    font-family:"inter", sans-serif;
-}
 
 .listmat{
     margin: 10%;
@@ -573,18 +566,7 @@ html {
     margin: 0px 0px 50px 0px;
 }
 
-#fmat{
-    width: 100%;
-    float: left;
-    display: flex;
-    justify-content: center;
-    margin: 10px auto;
-}
 
-#sectionmat {
-    display: block;
-    margin: 10px;
-}
 
 .hmat {
     margin: 20px;
@@ -606,19 +588,8 @@ html {
     margin: 10px 20px;
 }
 
-#asidemat {
-    margin: 20px;
-}
 
-#asmat{
-    margin: 0px 50px 20px 50px;
-}
-
-#asmat1{
-    margin: 0px 100px 20px 50px;
-}
-
-#buttonm {
+.buttonm {
     text-align: center;
     background-color: #2c66eb;
     color: #fff;
@@ -628,7 +599,7 @@ html {
     border-radius: 20px;
 }
 
-#buttonm:hover{
+.buttonm:hover{
     background-color: #808080;
 }
 
@@ -894,7 +865,7 @@ html {
     font-family: "inter", sans-serif;
 }
 
-#buttonm {
+#button {
     margin: 5px 10px;
     background-color: #b4d6e6;
     border: 1px solid #2c66eb;
@@ -925,7 +896,7 @@ html {
     border-radius: 10px 10px 0px 0px;
 }
 
-#button {
+.buttonnoticia{
     text-align: center;
     background-color: #2c66eb;
     color: #fff;
@@ -935,11 +906,11 @@ html {
     border-radius: 20px;
 }
 
-#button:hover{
+.buttonnoticia:hover{
     background-color: #808080;
 }
 
-#sectionnot {
+.sectionnot {
     display: inline-block;
     vertical-align: top;
     margin: 20px 30px;
