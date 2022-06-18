@@ -77,8 +77,7 @@
                         </section>
                     </div>
 
-                    <div class="variantes">
-
+                    
                         <div class="row variantes">
                             <h2 class="h2varianteMarvel">Venom e sua Variante</h2>
                             <div class="col-xs-10 col-sm-12 col-md-12 col-lg-6">
@@ -103,7 +102,7 @@
                             </div>
                         </div>
 
-                    </div>
+                    
 
                     <h2 class="h2Marvel">Origem dos Simbiontes</h2>
                     <p>Os Simbiontes foram criados por um antigo deus maligno chamado de Knull! Que foi o responsável
@@ -125,14 +124,14 @@
                         <div class="col-12 col-xs-10 col-sm-12 col-md-12 col-lg-6">
                             <section class="VideoTelaMarvel">
                                 <h6 class="invisible">venom</h6>
-                                <object width="400" height="300"
+                                <object class="videosMarvel"
                                     data="https://www.youtube.com/embed/0e9kzDndJ-s"></object>
                             </section>
                         </div>
                         <div class="col-xs-10 col-sm-12 col-md-12 col-lg-6">
                             <section class="VideoTelaMarvel">
                                 <h6 class="invisible">Venom</h6>
-                                <object width="400" height="300"
+                                <object class="videosMarvel"
                                     data="https://www.youtube.com/embed/b8FSsd70_jk"></object>
                             </section>
                         </div>
