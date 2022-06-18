@@ -44,8 +44,8 @@
                                 <img class="card-img-top" src="images/arc3390x194.jpg" alt="Personagem Arqueiro Verde, com sua versão animada a esqueda e sua versão live action a direita.">
                                 <h2 class="hmat">Arqueiro Verde</h2>
                                 <h4 class="hmat1">Autor: Nayara Nunes</h4>
-                                <p class="pmat">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis similique dolore repellendus, fuga pariatur, ratione nesciunt aliquam doloribus ipsa accusamus minus, nisi tenetur.</p>
-                                <button class="btn btn-primary buttonnoticia" onclick="window.location.href='materia-arqeuiro.php';">Saiba mais</button>
+                                <p class="pmat">Conheça mais sobre o Arqueiro Verde, personagem inspirado em Robin Hood e quem é o ator por trás dele.</p>
+                                <button class="btn btn-primary buttonnoticia" onclick="window.location.href='materia-arqueiro.php';">Saiba mais</button>
                             </section>
                         </div>
                     </div>
@@ -97,7 +97,7 @@
                                 <img class="card-img-top" src="images/babygroot390x194.jpg" alt="Personagem Groot, com sua versão animada a esqueda e sua versão live action a direita.">
                                 <h2 class="hmat">Baby Groot</h2>
                                 <h4 class="hmat1">Autor: Nayara Nunes</h4>
-                                <p class="pmat">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis similique dolore repellendus, fuga pariatur, ratione nesciunt aliquam doloribus ipsa accusamus minus, nisi tenetur.</p>
+                                <p class="pmat">Conheça mais sobre do Baby Groot e quem é o ator por trás dele.</p>
                                 <button type="button" class="btn btn-primary buttonnoticia" onclick="window.location.href='';">Saiba mais</button>
                             </section>
                         </div>
