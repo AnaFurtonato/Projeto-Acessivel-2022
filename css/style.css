@@ -52,6 +52,7 @@ a{
     margin: 0px 20px 25px 20px;
     padding: 10px 25px 10px 25px;
     border-radius: 20px;
+    border-color: #2c66eb ;
 }
 
 
@@ -137,15 +138,56 @@ a{
     background-color: #2c66eb;
     color: #fff;
     width: 100%;
+    text-align: center;
 }
 
 .buttonLogoHeader {
     background-color: #2c66eb;
     color: #fff;
     border-style: none;
+    text-align: center;
 }
 
+/* css index */
+.topohome{
+    margin: 50px 0px 50px 0px;
+}
+.h1home{
+    font-family: "inter", sans-serif;
+    margin: 0px 0px 40px 0px;
+}
 
+.phome{
+    font-family: "inter", sans-serif;
+}
+
+.imgTopoHome2{
+    width: 100%;
+    margin: 0px 10px 100px 0px;
+}
+
+.h2home{
+    font-family: "inter", sans-serif;
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+}
+.h2home2{
+    font-family: "inter", sans-serif;
+    text-align: center;
+    color: #fff;
+    margin: 0px 0px 50px 0px;
+
+}
+.phomepersonagens{
+    font-family: "inter", sans-serif;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
+.VideosHome{
+    background-color: #000;
+    padding: 100px 0px 100px 0px;
+}
 
 @media (max-width: 576px) {
 
@@ -168,6 +210,7 @@ a{
         border-radius: 10px;
         box-shadow: 0 0 0.1em #808080;
         margin-left: 15px;
+        text-align: center;
     }
 
 
@@ -286,6 +329,7 @@ a{
         box-shadow: 0 0 0.1em #808080;
         margin-left: 0px;
         height: 100%;
+        text-align: center;
     }
 
    /* tela doninha */
@@ -395,6 +439,7 @@ a{
         box-shadow: 0 0 0.1em #808080;
         margin-left: 0px;
         height: 100%;
+        text-align: center;
     }
 
     /* tela doninha */
@@ -468,6 +513,7 @@ a{
     .cardHome {
         border-radius: 10px;
         box-shadow: 0 0 0.1em #808080;
+        text-align: center;
     }
 
     /* tela doninha */

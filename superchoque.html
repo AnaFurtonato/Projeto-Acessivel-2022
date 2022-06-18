@@ -18,7 +18,7 @@
     </div>
 
     <Header class="headerDoninha row">
-        <img class="img-fluid" src="images/superchoque-princi.jpg"
+        <img class="img-fluid" src="images/superchoquebanner.jpg"
             alt="Imagem do personagem Super Choque voando com seus raios e a o fundo está a cidade">
 
     </Header>
