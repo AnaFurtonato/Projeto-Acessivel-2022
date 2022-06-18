@@ -14,8 +14,10 @@
 
 <body>
 
+ <button onclick="window.location.href='pantera.php#topo';" class="col-5 btn btn-dark justify-content-center">Voltar ao Topo</button>
+
     <header>
-        <img src="images/pantera-negra-princi.jpg" class="w-100" alt="imagme do pernsonagem Pantera Negra com fundo da imagem em um degradê azul">
+        <img src="images/pantera-negra-princi.jpg" class="w-100" alt="imagem do pernsonagem Pantera Negra com fundo da imagem em um degradê azul">
     </header>
 
     <div class="container-fluid">
@@ -69,7 +71,7 @@
                             <div class="col-xs-10 col-sm-12 col-md-12 col-lg-6">
                                 <div class="imagemMarvel">
                                     <img src="images/pantera-negra-filme2.jpg" class="img-fluid imgPersonagemMarvel"
-                                        alt="imagem de Carnificina, Simbionte inimigo do ator Michael B. Jordan vilão do filme e na foto ele está sorrindo">
+                                        alt="imagem do ator Michael B. Jordan vilão do filme e na foto ele está sorrindo">
                                     <h4 class="h4varianteMarvel">Michael B. Jordan</h4>
                                     <p class="pvarianteMarvel">Erik Killmonger, interpretado pelo ator Michael B. Jordan, ele é vilão do filme do Pantera Negra
                                         do ano de 2018, onde seu nome real é N'Jadaka primo do próprio Rei T'Challa. No longa ele quer assumir o trono de rei 
@@ -94,14 +96,14 @@
                     <div class="row">
                         <div class="col-12 col-xs-10 col-sm-12 col-md-12 col-lg-6">
                             <section class="VideoTelaMarvel">
-                                <h6 class="invisible">venom</h6>
+                                <h6 class="invisible">Pantera Negra</h6>
                                 <object width="400" height="300"
                                     data="https://www.youtube.com/embed/c-hyQTO2ylY"></object>
                             </section>
                         </div>
                         <div class="col-xs-10 col-sm-12 col-md-12 col-lg-6">
                             <section class="VideoTelaMarvel">
-                                <h6 class="invisible">Venom</h6>
+                                <h6 class="invisible">Pantera Negra</h6>
                                 <object width="400" height="300"
                                     data="https://www.youtube.com/embed/viPmrk4dTXU"></object>
                             </section>
@@ -185,7 +187,7 @@
                 </aside>
 
                 <footer class="BotaoVoltarAoTopo row">
-                    <button onclick="window.location.href='venom.html#topo';"
+                    <button onclick="window.location.href='pantera.php#topo';"
                         class="col-5 btn btn-dark justify-content-center">Voltar ao Topo</button>
                 </footer>
             </div>

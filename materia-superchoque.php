@@ -16,7 +16,7 @@
 
 
     <div class="BotaoConteudoPrincipal">
-        <button class="btn btn-dark col-12 col-sm-12 col-md-12" onclick="window.location.href='materia-superchoque.html#Arqueiro';" >Ir
+        <button class="btn btn-dark col-12 col-sm-12 col-md-12" onclick="window.location.href='materia-superchoque.php#Arqueiro';" >Ir
             Direto para O conteúdo Principal</button>
     </div>
     

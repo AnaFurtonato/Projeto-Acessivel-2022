@@ -13,7 +13,7 @@
 <body>
 
     <div class="BotaoConteudoPrincipal">
-        <button onclick="window.location.href='superchoque.html#topo';" class="btn btn-dark col-12 col-sm-12 col-md-12">Ir
+        <button onclick="window.location.href='superchoque.php#topo';" class="btn btn-dark col-12 col-sm-12 col-md-12">Ir
             Direto para O conteúdo Principal</button>
     </div>
 
@@ -153,7 +153,7 @@
 
 
             <footer class="BotaoVoltarAoTopo row">
-                <button onclick="window.location.href='superchoque.html#topo';"
+                <button onclick="window.location.href='superchoque.php#topo';"
                     class="col-5 btn btn-dark justify-content-center">Voltar ao Topo</button>
             </footer>
         </div>
