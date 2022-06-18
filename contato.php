@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,53 +12,54 @@
 
     <title>Contato</title>
 </head>
+
 <body>
 
     <?php include 'header.php'; ?>
 
 
     <div class="container">
-    <h1 class="pt-5 pb-5">
-        Entre em Contato:
-    </h1>
-    
-    <form>
+        <h1 class="pt-5 pb-5">
+            Entre em Contato:
+        </h1>
 
-        
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <input class="form-control mb-2" type="text" placeholder="Nome Completo:">
-            <input class="form-control mb-2" type="tel" placeholder="Telefone:">
-            <input class="form-control mb-2" type="email" placeholder="E-mail:">
-            <input class="form-control mb-2" type="text" placeholder="Assunto:">
-    
-    
-            <textarea class="mb-2 form-control" rows="12"></textarea>
-    
-    
-            <input type="submit" class="btn btn-primary float-end" value='Enviar'>
+        <form>
+
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <input class="form-control mb-2" type="text" placeholder="Nome Completo:">
+                <input class="form-control mb-2" type="tel" placeholder="Telefone:">
+                <input class="form-control mb-2" type="email" placeholder="E-mail:">
+                <input class="form-control mb-2" type="text" placeholder="Assunto:">
+
+
+                <textarea class="mb-2 form-control" rows="12"></textarea>
+
+
+                <input type="submit" class="btn btn-primary float-end" value='Enviar'>
+            </div>
+        </form>
+
+        <div class="container pt-5">
+            <Div class="d-flex">
+                <span class="bi-telephone-fill mr-sm-2"></span>
+                <p class="mx-4"> (11) 9999-9999</p>
+            </Div>
+
+            <Div class="d-flex">
+                <span class="bi-envelope-fill"></span>
+                <p class="mx-4"> contato@gmail.com</p>
+            </Div>
+
+            <Div class="d-flex">
+                <span class="bi-geo-alt-fill"></span>
+                <p class="mx-4"> Rua: São Jose, Nº89 - São Paulo/SP - 18938674</p>
+            </Div>
         </div>
-    </form>
 
-    <div class="container pt-5">
-        <Div class="d-flex">
-            <span class="bi-telephone-fill mr-sm-2"></span>
-            <p class="mx-4"> (11) 9999-9999</p>
-        </Div>
-
-        <Div class="d-flex">
-            <span class="bi-envelope-fill"></span>
-            <p class="mx-4"> contato@gmail.com</p>
-        </Div>
-
-        <Div class="d-flex">
-            <span class="bi-geo-alt-fill"></span>
-            <p class="mx-4"> Rua: São Jose, Nº89 - São Paulo/SP - 18938674</p>
-        </Div>
+        <div class="pt-5"> <?php include 'footer.php'; ?> </div>
     </div>
-    
-   <div class="pt-5"> <?php include 'footer.php'; ?> </div>
-</div>
 
 </body>
-</html>
 
+</html>

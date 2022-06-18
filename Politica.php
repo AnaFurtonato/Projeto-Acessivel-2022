@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,7 +19,7 @@
             <div class="row">
                 <h2 id="topo" class="h2politica">Política de Privacidade</h2>
 
-                <article class="col-xs-10 col-sm-12 col-md-12 col-lg-12"> 
+                <article class="col-xs-10 col-sm-12 col-md-12 col-lg-12">
                     <div class="mainpolitica">
                         <div class="row">
 
@@ -34,7 +35,7 @@
                             <p class="psobre">O formulário de Newslatter enviar nome e endereço de e-mail, no qual armazenamos para enviar campanhas de e-mail marketing. Ao Assinar uma newslatter, você nos permite enviar de e-mails informativos e de ofertas.</p>
 
                             <h4 class="h4politica">Cookies</h4>
-                            <p class="psobre">Nós utilizamos cookies. Cookies são pequenos arquivos de textos simples que sites armazenam em seu navegador para salvar suas preferências e configurações. Por exemplo, quando você acessa um site pela primeira vez, que faz uso de cookies, este site envia um arquivo de texto com suas preferências para o seu navegador, como: Região de onde você está acessando, seu endereço de e-mail, idioma escolhido, cores, produtos que você poderá gostar com base em suas pesquisas, e etc.  Quando você acessar o site novamente, seu navegador irá enviar este arquivo para o site, desta forma as suas configurações e preferências serão aplicadas automaticamente sem que você precise configurar tudo de novo (a menos que você queira).</p>
+                            <p class="psobre">Nós utilizamos cookies. Cookies são pequenos arquivos de textos simples que sites armazenam em seu navegador para salvar suas preferências e configurações. Por exemplo, quando você acessa um site pela primeira vez, que faz uso de cookies, este site envia um arquivo de texto com suas preferências para o seu navegador, como: Região de onde você está acessando, seu endereço de e-mail, idioma escolhido, cores, produtos que você poderá gostar com base em suas pesquisas, e etc. Quando você acessar o site novamente, seu navegador irá enviar este arquivo para o site, desta forma as suas configurações e preferências serão aplicadas automaticamente sem que você precise configurar tudo de novo (a menos que você queira).</p>
                             <p class="psobre">Ao deixar um comentário no site, você poderá optar por salvar seu nome, e-mail e site nos cookies. Isso visa seu conforto, assim você não precisará preencher seus dados novamente quando fizer outro comentário. Estes cookies duram um ano.</p>
                             <p class="psobre">Se você tem uma conta e acessa este site, um cookie temporário será criado para determinar se seu navegador aceita cookies. Ele não contém nenhum dado pessoal e será descartado quando você fechar seu navegador.</p>
                             <p class="psobre">Quando você acessa sua conta no site, também criamos vários cookies para salvar os dados da sua conta e suas escolhas de exibição de tela. Cookies de login são mantidos por dois dias e cookies de opções de tela por um ano. Se você selecionar “Lembrar-me”, seu acesso será mantido por duas semanas. Se você se desconectar da sua conta, os cookies de login serão removidos.</p>
@@ -61,25 +62,24 @@
                             <p class="psobre">Fique tranquilo(a)! Suas informações estão seguras! nosso site possui certificado SSL (site Seguro) para você navegar, processar e enviar informações com segurança. Também utilizamos plugin de segurança no site.</p>
                             <p class="psobre">Nos reservamos o direito de atualizar estes termos e condições de uso sem qualquer aviso prévio</p>
 
-                        </div> 
-                    </div>          
+                        </div>
+                    </div>
 
                 </article>
 
                 <footer class="BotaoVoltarAoTopo row">
-                <button onclick="window.location.href='politica.php#topo';"
-                    class="col-5 btn btn-dark justify-content-center">Voltar ao Topo</button>
-          
-                    
+                    <button onclick="window.location.href='politica.php#topo';" class="col-5 btn btn-dark justify-content-center">Voltar ao Topo</button>
+
+
                 </footer>
 
                 <?php include 'footer.php'; ?>
-            </div>    
+            </div>
         </main>
-    </div>  
+    </div>
 
-   
-      
+
+
 
 
 </body>

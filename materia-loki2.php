@@ -16,8 +16,7 @@
 
 
     <div class="BotaoConteudoPrincipal">
-        <button class="btn btn-dark col-12 col-sm-12 col-md-12"
-            onclick="window.location.href='materia-loki.php#topo';">Ir
+        <button class="btn btn-dark col-12 col-sm-12 col-md-12" onclick="window.location.href='materia-loki2.php#topo';">Ir
             Direto para o conteúdo Principal</button>
     </div>
 
@@ -25,8 +24,7 @@
 
 
     <header class="col-sm-12 col-md-12 col-lg-12">
-        <img class="img-fluid w-100" src="images/loki11.jpeg"
-            alt="Sylvie e Loki segurando espadas na mão e olhando para frente">
+        <img class="img-fluid w-100" src="images/loki11.jpeg" alt="Sylvie e Loki segurando espadas na mão e olhando para frente">
     </header>
 
 
@@ -44,18 +42,16 @@
 
                     <div class="row justify-content-around">
                         <div class="col-12 col-sm-12 col-md-5 col-lg-4 col-xs-10  pt-5">
-                            <img class="col-12 rounded" src="images/Loki03.jpg"
-                                alt="Loki em 5 momentos diferentes dos filmes e em todos eles, ele está com a tipoca roupa verde dele">
+                            <img class="col-12 rounded" src="images/Loki03.jpg" alt="Loki em 5 momentos diferentes dos filmes e em todos eles, ele está com a tipoca roupa verde dele">
                         </div>
                         <div class="col-12 col-sm-12 col-md-5 col-lg-4 col-xs-10 pt-5">
-                            <img class="col-12 rounded border" src="images/Loki08.jpg"
-                                alt="Loki Presidente, ele está olhando para frente e sorrindo, ultilizando um terno com o ombro do lado direito rasgado e com um boton sobre o seu peito do lado esquerdo">
+                            <img class="col-12 rounded border" src="images/Loki08.jpg" alt="Loki Presidente, ele está olhando para frente e sorrindo, ultilizando um terno com o ombro do lado direito rasgado e com um boton sobre o seu peito do lado esquerdo">
                         </div>
                     </div>
 
-                       <p class="ppmat">Justin Benson e Aaron Moorhead, citados na fala de Waldron, foram os diretores escolhidos para comandar a série após a saída de Kate Herron, diretora da primeira temporada. A dupla dirigiu três episódios de Cavaleiro da Lua, além de ter trabalhado na série Além da Imaginação (2020) e Arquivo 81.</p>
-                       <p class="ppmat">Por sua vez, Eric Martin já estava envolvido com a primeira temporada de Loki, tendo escrito dois episódios e colaborado em outros três. Além disso, ele colaborou com Waldron na escrita da série Heels, produção do Starz.</p>
-                       <p class="ppmat">Doutor Estranho no Multiverso da Loucura já está em cartaz nos cinemas. A segunda temporada de Loki ainda não conta com previsão de estreia, mas a temporada de estreia está disponível no Disney+.</p>
+                    <p class="ppmat">Justin Benson e Aaron Moorhead, citados na fala de Waldron, foram os diretores escolhidos para comandar a série após a saída de Kate Herron, diretora da primeira temporada. A dupla dirigiu três episódios de Cavaleiro da Lua, além de ter trabalhado na série Além da Imaginação (2020) e Arquivo 81.</p>
+                    <p class="ppmat">Por sua vez, Eric Martin já estava envolvido com a primeira temporada de Loki, tendo escrito dois episódios e colaborado em outros três. Além disso, ele colaborou com Waldron na escrita da série Heels, produção do Starz.</p>
+                    <p class="ppmat">Doutor Estranho no Multiverso da Loucura já está em cartaz nos cinemas. A segunda temporada de Loki ainda não conta com previsão de estreia, mas a temporada de estreia está disponível no Disney+.</p>
                 </article>
 
 
@@ -70,8 +66,7 @@
                         <div class="col-md-6 col-lg-12 float-start">
                             <div class="card">
                                 <section class="sec3">
-                                    <img class="card-img-top" src="images/Loki2.jpg"
-                                        alt="Essa imagem conta com 5 lokis diferentes com as suas caracteristicas roupas verdes, ele está o Kid Loki, Loki adolescente, Loki adulto, Loki Classico e a Loki mulher">
+                                    <img class="card-img-top" src="images/Loki2.jpg" alt="Essa imagem conta com 5 lokis diferentes com as suas caracteristicas roupas verdes, ele está o Kid Loki, Loki adolescente, Loki adulto, Loki Classico e a Loki mulher">
                                     <h3 class="hmat">Tom Hiddleston comenta bissexualidade de Loki: "foi um pequeno passo"</h3>
                                     <h5 class="hmat1">Autora: Ana Clara</h5>
                                     <p class="pmat">O ator admite que foi "um pequeno passo", mas torce para que o momento tenha sido "significativo" para os fãs.</p>
@@ -83,8 +78,7 @@
                         <div class="col-md-6 col-lg-12 float-start">
                             <div class="card ">
                                 <section class="sec3">
-                                    <img class="card-img-top" src="images/Loki10.jpg"
-                                        alt="Loki dos quadrindos com as mãos soltando raios em cima da capitã marve">
+                                    <img class="card-img-top" src="images/Loki10.jpg" alt="Loki dos quadrindos com as mãos soltando raios em cima da capitã marve">
                                     <h3 class="hmat">Quais são os poderes do Loki, o Deus da trapaça?</h3>
                                     <h5 class="hmat1">Autor: Ana Clara</h5>
                                     <p class="pmat">Loki, o vilão que tem sua própria série no Disney+, é um dos personagens mais poderosos do Universo Cinematográfico Marvel (MCU).</p>
@@ -98,8 +92,7 @@
                 </aside>
 
                 <footer class="BotaoVoltarAoTopo row pt-5">
-                    <button onclick="window.location.href='materia-loki.php#topo';"
-                        class="col-5 btn btn-dark justify-content-center">Voltar ao Topo</button>
+                    <button onclick="window.location.href='materia-loki2.php#topo';" class="col-5 btn btn-dark justify-content-center">Voltar ao Topo</button>
                 </footer>
             </div>
         </main>

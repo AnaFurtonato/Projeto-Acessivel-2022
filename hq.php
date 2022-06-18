@@ -15,6 +15,8 @@
                 Direto para o conteúdo Principal</button>
         </div>
 
+        <?php include 'header.php'; ?>
+
         <header>                   
             <img src="images/hqbanner.jpg" class="w-100" id="img-header" alt ="banner com o nome Marvel e DC United com degradê entre preto e azul">                    
         </header>
@@ -99,16 +101,23 @@
                                 </section>
                             </div> 
                         
-                            
-                    </article>
-                </div>    
-            </main>    
-        </div>    
-
-        <footer class="BotaoVoltarAoTopo row">
+                            <div class="BotaoVoltarAoTopo row">
             <button onclick="window.location.href='hq.php#topo';"
                 class="col-5 btn btn-dark justify-content-center">Voltar ao Topo</button>
-        </footer>
+        </div>
 
+                            
+                    </article>
+
+            
+                </div>    
+
+          
+            </main>    
+
+        </div>    
+
+      <?php include 'footer.php'; ?>
+      
     </body>
 </html>

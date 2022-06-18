@@ -16,8 +16,7 @@
 
 
     <div class="BotaoConteudoPrincipal">
-        <button class="btn btn-dark col-12 col-sm-12 col-md-12"
-            onclick="window.location.href='materia-doninha.php#topo';">Ir
+        <button class="btn btn-dark col-12 col-sm-12 col-md-12" onclick="window.location.href='materia-doninha.php#topo';">Ir
             Direto para O conteúdo Principal</button>
     </div>
 
@@ -25,8 +24,7 @@
 
 
     <header class="col-sm-12 col-md-12 col-lg-12">
-        <img class="img-fluid w-100" src="images/ImagemPrincipalDoninha.png"
-            alt="imagem do personagem arqueiro verde com seu uniforme e seu arco e flecha">
+        <img class="img-fluid w-100" src="images/ImagemPrincipalDoninha.png" alt="imagem do personagem arqueiro verde com seu uniforme e seu arco e flecha">
     </header>
 
 
@@ -62,12 +60,10 @@
 
                     <div class="row justify-content-around">
                         <div class="col-12 col-sm-12 col-md-5 col-lg-4 col-xs-10  pt-5">
-                            <img class="col-12 rounded" src="images/doninha1.jpg"
-                                alt="Imagem do doninha com uma bandeira enorme dos Estados Unidos atrás dele">
+                            <img class="col-12 rounded" src="images/doninha1.jpg" alt="Imagem do doninha com uma bandeira enorme dos Estados Unidos atrás dele">
                         </div>
                         <div class="col-12 col-sm-12 col-md-5 col-lg-4 col-xs-10 pt-5">
-                            <img class="col-12 rounded border" src="images/billTheCat.jpg"
-                                alt="Bill The Cat, gato maluco animado que foi a inspiração para a criação do Doninha">
+                            <img class="col-12 rounded border" src="images/billTheCat.jpg" alt="Bill The Cat, gato maluco animado que foi a inspiração para a criação do Doninha">
                         </div>
                     </div>
 
@@ -96,8 +92,7 @@
                         <div class="col-md-6 col-lg-12 float-start">
                             <div class="card">
                                 <section class="sec3">
-                                    <img class="card-img-top" src="images/batman296x176.jpg"
-                                        alt="Personagem Batman, com sua versão animada a esqueda e sua versão live action a direita.">
+                                    <img class="card-img-top" src="images/batman296x176.jpg" alt="Personagem Batman, com sua versão animada a esqueda e sua versão live action a direita.">
                                     <h3 class="hmat">Batman</h3>
                                     <h5 class="hmat1">Autora: Ana Clara</h5>
                                     <p class="pmat">Conheça mais sobre o Batman, protetor de Gotham City</p>
@@ -109,8 +104,7 @@
                         <div class="col-md-6 col-lg-12 float-start">
                             <div class="card ">
                                 <section class="sec3">
-                                    <img class="card-img-top" src="images/arc296x176.jpg"
-                                        alt="Personagem Arqueiro-Verde, com sua versão animada a esqueda e sua versão live action a direita.">
+                                    <img class="card-img-top" src="images/arc296x176.jpg" alt="Personagem Arqueiro-Verde, com sua versão animada a esqueda e sua versão live action a direita.">
                                     <h3 class="hmat">Arqueiro-Verde</h3>
                                     <h5 class="hmat1">Autor: Nayara Nunes</h5>
                                     <p class="pmat">O que aconteceu com Stephen Amell, ator que interpretava Arqueiro
@@ -125,8 +119,7 @@
                 </aside>
 
                 <footer class="BotaoVoltarAoTopo row pt-5">
-                    <button onclick="window.location.href='materia-doninha.php#topo';"
-                        class="col-5 btn btn-dark justify-content-center">Voltar ao Topo</button>
+                    <button onclick="window.location.href='materia-doninha.php#topo';" class="col-5 btn btn-dark justify-content-center">Voltar ao Topo</button>
                 </footer>
             </div>
         </main>
