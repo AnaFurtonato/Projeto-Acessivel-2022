@@ -17,7 +17,7 @@
  <button onclick="window.location.href='pantera.php#topo';" class="col-5 btn btn-dark justify-content-center">Voltar ao Topo</button>
 
     <header>
-        <img src="images/pantera-negra-princi.jpg" class="w-100" alt="imagem do pernsonagem Pantera Negra com fundo da imagem em um degradê azul">
+        <img src="images/panteranegrabanner.jpg" class="w-100" alt="imagem do pernsonagem Pantera Negra com fundo da imagem em um degradê azul">
     </header>
 
     <div class="container-fluid">

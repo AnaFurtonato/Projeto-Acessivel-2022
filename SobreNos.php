@@ -74,10 +74,15 @@
                             <p class="psobre">Telas que Fiz:</p>
 
                             <ul>
+                                <li><a href="index.php">Home</a></li>
+                                <li><a href="header.php">Header</a></li>
                                 <li><a href="loki.php">Loki</a></li>
-                                <li><a href="">Batman</a></li>
-                                <li><a href="">Materia Loki</a></li>
-                                <li><a href="">Materia Batman</a></li>
+                                <li><a href="batman,php">Batman</a></li>
+                                <li><a href="materia-loki.php">Primeira Materia do Loki</a></li>
+                                <li><a href="materia-loki2.php">Segunda Materia do Loki</a></li>
+                                <li><a href="materia-loki3.php">Terceira Materia do Loki</a></li>
+                                <li><a href="materia-batman.php">Primeira Materia do Batman</a></li>
+                                <li><a href="materia-batman2.php">Segunda Materia do Batman</a></li>
                                 <li><a href="SobreNos.php">Sobre Nós</a></li>
                                 <li><a href="hq.php">HQs</a></li>
                                 <li><a href="Politica.php">Política de Privacidade</a></li>

@@ -19,7 +19,7 @@
 
         <div class="col-12 col-sm-2 col-md-3 col-lg-3">
             <Button onclick="window.location.href='index.php';" class="col-12 buttonLogoHeader">
-                <img src="images/logo2.png" alt="logo">
+                <img src="images/logo.png" alt="logo">
             </Button>
         </div>
 
