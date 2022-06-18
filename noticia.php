@@ -24,7 +24,7 @@
     
     <header class= "col-sm-12 col-md-12 col-lg-12">
     
-        <img class="img-fluid" id="img1" src="images/marvelxdc1440x250.jpg" alt="Logo da Marvel do lado esquerdo e logo da DC ao lado direito em preto e branco.">
+    <img class="w-100"  src="images/materiabanner.jpg" alt="Logo da Marvel do lado esquerdo e logo da DC ao lado direito em preto e branco.">
     </header>
 
     <h1 id="Noticias" class="h1not">Últimas notícias</h1>
