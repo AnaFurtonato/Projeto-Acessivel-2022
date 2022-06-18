@@ -16,6 +16,8 @@
                 Direto para O conteúdo Principal</button>
         </div>
 
+        <?php include 'header.php'; ?>
+
         <header>
             <img src="images/lokibanner.jpg" class="w-100" id="imagemtopo" alt="Imagem de topo do site, onde tem um degrade nas cores preta e azul um uma opacidade para ver a imagem por traz onde está o Loki em algumas cenas do filme e da serie, ja na frente das cores está a logo escrito Loki bem grande centralizada e em cima está a logo da marvel ">
         </header>
@@ -162,42 +164,47 @@
 
 
                         <section class="outrosPersonagemMarvel">
-                            <img src="images/groothq.webp" class="img-fluid imgoutrosPersonagemMarvel"  alt="Groot, uma arvore bebe com os olhos bem grandes olhando para frente e com um controle de video game nas mãos">
+                            <img src="images/Per-groot.png" class="img-fluid imgoutrosPersonagemMarvel"  alt="Groot, uma arvore bebe com os olhos bem grandes olhando para frente e com um controle de video game nas mãos">
                             <div>
-                                <a class="BotaoPersonagemMarvel" href="#" >Ler Mais</a>
+                                <a class="BotaoPersonagemMarvel" href="babyGroot.php" >Ler Mais</a>
                             </div>			
                         </section> 
         
 
                         <section class="outrosPersonagemMarvel">
-                            <img src="images/art-venom-venom.jpg" class="img-fluid imgoutrosPersonagemMarvel"  alt="Venom com a boca aberta mostrando os dentes afiados e a lingua para fora">
+                            <img src="images/Per-venom.png" class="img-fluid imgoutrosPersonagemMarvel"  alt="Venom com a boca aberta mostrando os dentes afiados e a lingua para fora">
                             <div>
-                                <a class="BotaoPersonagemMarvel" href="#" >Ler Mais</a>
+                                <a class="BotaoPersonagemMarvel" href="Venom.php" >Ler Mais</a>
                             </div>
                         </section> 
     
 
                         <section class="outrosPersonagemMarvel">
-                            <img src="images/pantera-negra.webp" class="img-fluid imgoutrosPersonagemMarvel"  alt="Pantera Negra com sua roupa preta e suas garras pratas amostra">
+                            <img src="images/Per-pantera.png" class="img-fluid imgoutrosPersonagemMarvel"  alt="Pantera Negra com sua roupa preta e suas garras pratas amostra">
                             <div>
-                                <a class="BotaoPersonagemMarvel" href="#" >Ler Mais</a>
+                                <a class="BotaoPersonagemMarvel" href="pantera.php" >Ler Mais</a>
                             </div>
                         </section>      
                         
                         
                     </aside>
-                </div>    
+
+                    <footer class="BotaoVoltarAoTopo row">
+            <button onclick="window.location.href='loki.php#topo';"
+                class="col-5 btn btn-dark justify-content-center">Voltar ao Topo</button>
+        </footer>  
+                </div> 
+             
             </main>
+
+          
         </div>    
 
 
 
 
-
-        <footer class="BotaoVoltarAoTopo row">
-            <button onclick="window.location.href='loki.html#topo';"
-                class="col-5 btn btn-dark justify-content-center">Voltar ao Topo</button>
-        </footer>
+<?php include 'footer.php'; ?>
+        
 
     </body>
 </html>

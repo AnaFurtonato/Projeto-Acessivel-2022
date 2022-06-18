@@ -14,32 +14,32 @@
 
     <nav class=" navHeader ">
 
-    <Div class="container-fluid row">
+        <Div class="container-fluid row">
 
 
-        <div class="col-12 col-sm-2 col-md-3 col-lg-3">
-            <Button onclick="window.location.href='index.php';" class="col-12 buttonLogoHeader">
-                <img src="images/logo.png" alt="logo">
-            </Button>
-        </div>
+            <div class="pt-sm-4 pt-md-4 pt-lg-3 pt-xl-2 col-12 col-sm-2 col-md-3 col-lg-3">
+                <Button onclick="window.location.href='index.php';" class="col-12 buttonLogoHeader">
+                    <img class="col-sm-12 col-xl-8" src="images/logo.png" alt="logo">
+                </Button>
+            </div>
 
-        <div class="col-6 col-sm-2 col-md-2 col-lg-2 p-4">
-            <Button onclick="window.location.href='index.php';" class="btn btn-dark col-12">Home</Button>
-        </div>
+            <div class="col-6 col-sm-2 col-md-2 col-lg-2 p-4">
+                <Button onclick="window.location.href='index.php';" class="btn btn-dark col-12">Home</Button>
+            </div>
 
-        <div class="col-6 col-sm-2 col-md-2 col-lg-2 p-4">
-            <button onclick="window.location.href='videos.php';" class="btn btn-dark col-12">Vídeos</button>
+            <div class="col-6 col-sm-2 col-md-2 col-lg-2 p-4">
+                <button onclick="window.location.href='videos.php';" class="btn btn-dark col-12">Vídeos</button>
 
-        </div>
+            </div>
 
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-4">
-            <button onclick="window.location.href='comiccon.php';" class="btn btn-dark col-12">Comic-Con</button>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-4">
+                <button onclick="window.location.href='comiccon.php';" class="btn btn-dark col-12">Comic-Con</button>
 
-        </div>
+            </div>
 
-        <div class="col-6 col-sm-2 col-md-2 col-lg-2 p-4">
-            <button onclick="window.location.href='hq.php';" class="btn btn-dark col-12">HQ's </button>
-        </div>
+            <div class="col-6 col-sm-2 col-md-2 col-lg-2 p-4">
+                <button onclick="window.location.href='hq.php';" class="btn btn-dark col-12">HQ's </button>
+            </div>
 
         </Div>
 

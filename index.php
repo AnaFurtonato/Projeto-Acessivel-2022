@@ -35,7 +35,7 @@
 
                 <main>
                     <article class="col-12 col-sm-12 col-md-12">
-                        <div class="row topohome">
+                        <div id="topo" class="row topohome">
                             <div class="col-xs-10 col-sm-12 col-md-12 col-lg-6">
                                 <h1 class="h1home">UrsinhosHQ - As melhores historias só aqui!</h1>
                                 <P class="phome">UrsinhosHQ o site para você fica por dentro de alguns dos melhores personagens do Universo Marvel e DC. Aqui você irá encontar as notícias, histórias, videos exclusivos, origem dos personagens, poderes, aventuras, filmes, series e participações especiais entre outros, tudo isso em um único site. <br>Então venha conferir a história do seu personagens favorito Marvel ou da DC.</P>
@@ -87,7 +87,7 @@
                                     <p class="col-md-12 phomepersonagens">Conheça mais sobre O arqueiro Verde, personagem famoso do mundo
                                         DC
                                     </p>
-                                    <button onclick="window.location.href='arqueiro.php'" class="botaonoticiaHome">Saiba Mais</button>
+                                    <button onclick="window.location.href='arqueiroverde.php'" class="botaonoticiaHome">Saiba Mais</button>
                                 </Section>
                             </div>
                         </div>
@@ -138,7 +138,7 @@
                                     <p class="col-md-12 phomepersonagens">Conheça mais sobre o Groot, famoso personagem fictício da
                                         Marvel
                                     </p>
-                                    <button onclick="window.location.href='groot.php'" class="botaonoticiaHome">Saiba Mais</button>
+                                    <button onclick="window.location.href='babyGroot.php'" class="botaonoticiaHome">Saiba Mais</button>
                                 </Section>
                             </div>
                         </div>

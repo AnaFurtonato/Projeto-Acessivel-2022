@@ -16,15 +16,14 @@
 
 
     <div class="BotaoConteudoPrincipal">
-        <button class="btn btn-dark col-12 col-sm-12 col-md-12"
-            onclick="window.location.href='materia-venom.php#topo';">Ir
+        <button class="btn btn-dark col-12 col-sm-12 col-md-12" onclick="window.location.href='materia-venom.php#topo';">Ir
             Direto para O conteúdo Principal</button>
     </div>
 
+    <?php include 'header.php'; ?>
 
     <header class="col-sm-12 col-md-12 col-lg-12">
-        <img class="img-fluid w-100" src="images/art-venom-venom.jpg"
-            alt="magem do pernsonagem venom com fundo da imagem em um degradê azul">
+        <img class="img-fluid w-100" src="images/art-venom-venom.jpg" alt="magem do pernsonagem venom com fundo da imagem em um degradê azul">
     </header>
 
 
@@ -49,12 +48,10 @@
 
                     <div class="row justify-content-around">
                         <div class="col-12 col-sm-12 col-md-5 col-lg-4 col-xs-10  pt-5">
-                            <img class="col-12 rounded" src="images/venomhq.jpg"
-                                alt="Imagem de venom sentado em um trono de ossos dando um sorriso">
+                            <img class="col-12 rounded" src="images/venomhq.jpg" alt="Imagem de venom sentado em um trono de ossos dando um sorriso">
                         </div>
                         <div class="col-12 col-sm-12 col-md-5 col-lg-4 col-xs-10 pt-5">
-                            <img class="col-12 rounded border" src="images/venon4.jpg"
-                                alt="venom com uma expressão de grito correndo atrás de alguém">
+                            <img class="col-12 rounded border" src="images/venon4.jpg" alt="venom com uma expressão de grito correndo atrás de alguém">
                         </div>
                     </div>
 
@@ -76,12 +73,11 @@
                         <div class="col-md-6 col-lg-12 float-start">
                             <div class="card">
                                 <section class="sec3">
-                                    <img class="card-img-top" src="images/batman296x176.jpg"
-                                        alt="Personagem Batman, com sua versão animada a esqueda e sua versão live action a direita.">
+                                    <img class="card-img-top" src="images/batman296x176.jpg" alt="Personagem Batman, com sua versão animada a esqueda e sua versão live action a direita.">
                                     <h3 class="hmat">Batman</h3>
                                     <h5 class="hmat1">Autora: Ana Clara</h5>
                                     <p class="pmat">Conheça mais sobre o Batman, protetor de Gotham City</p>
-                                    <a href="#" class="btn btn-primary buttonm">Saiba mais</a>
+                                    <a href="materia-batman.php" class="btn btn-primary buttonm">Saiba mais</a>
                                 </section>
                             </div>
                         </div>
@@ -89,8 +85,7 @@
                         <div class="col-md-6 col-lg-12 float-start">
                             <div class="card ">
                                 <section class="sec3">
-                                    <img class="card-img-top" src="images/arc296x176.jpg"
-                                        alt="Personagem Arqueiro-Verde, com sua versão animada a esqueda e sua versão live action a direita.">
+                                    <img class="card-img-top" src="images/arc296x176.jpg" alt="Personagem Arqueiro-Verde, com sua versão animada a esqueda e sua versão live action a direita.">
                                     <h3 class="hmat">Arqueiro-Verde</h3>
                                     <h5 class="hmat1">Autor: Nayara Nunes</h5>
                                     <p class="pmat">O que aconteceu com Stephen Amell, ator que interpretava Arqueiro
@@ -105,14 +100,14 @@
                 </aside>
 
                 <footer class="BotaoVoltarAoTopo row pt-5">
-                    <button onclick="window.location.href='materia-venom.php#topo';"
-                        class="col-5 btn btn-dark justify-content-center">Voltar ao Topo</button>
+                    <button onclick="window.location.href='materia-venom.php#topo';" class="col-5 btn btn-dark justify-content-center">Voltar ao Topo</button>
                 </footer>
             </div>
         </main>
 
     </div>
 
+    <?php include 'footer.php'; ?>
 
 </body>
 
