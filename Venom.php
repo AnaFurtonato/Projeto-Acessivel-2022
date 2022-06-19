@@ -94,7 +94,7 @@
 
                     <div class="col-xs-10 col-sm-12 col-md-12 col-lg-6">
                         <div class="imagemMarvel">
-                            <img src="images/carnificina-absoluta-resenha-2.webp" class="img-fluid imgPersonagemMarvel" alt="imagem de Carnificina, Simbionte inimigo de venom que veio de uma variação sua misturada com sangue">
+                            <img src="images/carnificina-absoluta-resenha-2.jpg" class="img-fluid imgPersonagemMarvel" alt="imagem de Carnificina, Simbionte inimigo de venom que veio de uma variação sua misturada com sangue">
                             <h4 class="h4varianteMarvel">Variante Carnificina</h4>
                             <p class="pvarianteMarvel">Carnificina é um supervilão de HQs do Universo Marvel, sendo considerado um dos inimigos mais psicopatas do Homem-Aranha e do anti-herói Venom, que também aparece no filme Venom: Tempo de Carnificina.</p>
                         </div>
