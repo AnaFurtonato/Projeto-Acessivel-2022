@@ -50,7 +50,7 @@
 
                     <div class="row justify-content-around">
                         <div class="col-12 col-sm-12 col-md-5 col-lg-4 col-xs-10  pt-5">
-                            <img class="col-12 rounded" src="images/arqueiro1.jpg" alt="arqueiro verde em sua versão Live Action com seu uniforme verde">
+                            <img class="col-12 rounded" src="images/arqueiro-verde-dc.jpg" alt="arqueiro verde em sua versão Live Action com seu uniforme verde">
                         </div>
                         <div class="col-12 col-sm-12 col-md-5 col-lg-4 col-xs-10 pt-5">
                             <img class="col-12 rounded" src="images/Stephen_Amell.jpg" alt="Stephen Amell, ator que interpretou o arqueiro verde na série Arrow">
